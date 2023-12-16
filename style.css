@@ -1,0 +1,61 @@
+html {
+    background: #ddd;
+    font-family: monospace;
+}
+body {
+    border: 2px solid #777;
+    font-size: 12pt;
+    line-height: 18pt;
+    margin: 2ch auto;
+    overflow-x: auto;
+    padding: 0ch 2ch;
+    width: 80ch;
+    word-wrap: break-word;
+}
+header {
+    display: none;
+}
+pre > code {
+    display: block;
+    padding: 1ch 2ch;
+}
+code {
+    background: #222;
+    color: #eee;
+    padding: 0 1ch;
+}
+
+nav {
+    margin-bottom: 60px;
+}
+
+footer {
+    border-top: 2px solid #777777;
+    padding-top: 20px;
+    margin: 100px auto 20px;
+}
+
+/*
+h1,
+h1 ~ *,
+h2 ~ h1,
+h2 ~ h1 ~ *,
+h3 ~ h1,
+h3 ~ h1 ~ * {
+    padding-left: 0px;
+}
+
+h2,
+h2 ~ *,
+h1 ~ h2,
+h1 ~ h2 ~ *:not(h1):not(h3) {
+    padding-left: 20px;
+}
+
+h3,
+h3 ~ *,
+h1 ~ h3,
+h1 ~ h3 ~ *:not(h1):not(h2) {
+    padding-left: 40px;
+}
+*/
