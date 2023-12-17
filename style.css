@@ -3,7 +3,7 @@ html {
     font-family: monospace;
 }
 body {
-    border: 2px solid #777;
+/*    border: 2px solid #777; */
     font-size: 12pt;
     line-height: 18pt;
     margin: 2ch auto;
@@ -13,13 +13,25 @@ body {
     word-wrap: break-word;
 }
 header {
-    display: none;
+    display: none; 
+}
+nav:before {
+    content: "✞";
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 50%;
+    white-space: pre-wrap;
+}
+nav {
+    margin-top: 40px;
 }
 h2 {
-    margin-top: 200px;
+    border-left: 12pt solid #222;
+    padding-left: 12pt;
+    margin-top: 100px;
 }
 h3 {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 pre > code {
     display: block;
@@ -30,10 +42,13 @@ code {
     color: #eee;
     padding: 0 1ch;
 }
-
-nav {
-    margin-bottom: 60px;
+blockquote { margin-left: unset; }
+blockquote > p:before {
+    content: "\00a0\00a0> ";
+    
 }
+
+
 
 footer {
     border-top: 2px solid #777777;
