@@ -12,7 +12,7 @@ $ 7z a -p -bt -mx=0 -mhe=on archive.7z file1 file2 file3</code>
 
 bulk archive a subreddit
 
-> note: two separate operations shown below
+> two separate operations shown below
 
 ```bash
 $ bdfr clone ~/save_dir/ --subreddit unixporn --log ~/save_dir/log.log --sort top --time all --make-hard-links --file-scheme "{DATE}_{POSTID}_{UPVOTES}"
@@ -36,7 +36,7 @@ $ for f in *.m4a; do ffmpeg -i "$f" "${f%.m4a}".flac; done
 
 merge multiple files into one without re-encoding
 
-> note: specific format for CONCAT.txt file
+> specific format for CONCAT.txt file
 
 ```bash
 $ cat CONCAT.txt
@@ -87,9 +87,9 @@ $ npx podcast-dl --url <rss url> --episode-template "{{release_date}} {{title}}"
 
 mirror directory to another location and log to file
 
-> note: requires backslashes at end of directories
+> requires backslashes at end of directories
 
-> note: remove --dry-run to execute; '--delete' used to mirror directory contents
+> remove --dry-run to execute; '--delete' used to mirror directory contents
 
 ```bash
 $ rsync --dry-run --archive --human-readable --itemize-changes --verbose --exclude="lost+found" --delete FILES_TO_COPY/ WHERE_TO_COPY_TO/ | tee ~/DATE_rsync.log
@@ -99,7 +99,7 @@ $ rsync --dry-run --archive --human-readable --itemize-changes --verbose --exclu
 
 split and tag flac file via cuesheet
 
-> note: requires cuesheet.sh, trash-cli to delete pregap file, and no more than 1 flac file and 1 cue file in directory
+> requires cuesheet.sh, trash-cli to delete pregap file, and no more than 1 flac file and 1 cue file in directory
 
 ```bash
 $ shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac
@@ -175,7 +175,11 @@ $ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title
 
 scrape pdfs from mises institute's digital library
 
-> note: requires beautifulsoup
+> requires beautifulsoup
+
+> update range of forloop as needed
+
+> for epub, use url ```book_type=537``` and change ```pdf``` to ```epub``` in script
 
 ```python
 #!/usr/bin/env python3
