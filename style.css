@@ -15,6 +15,12 @@ body {
 header {
     display: none;
 }
+h2 {
+    margin-top: 200px;
+}
+h3 {
+    margin-top: 70px;
+}
 pre > code {
     display: block;
     padding: 1ch 2ch;
