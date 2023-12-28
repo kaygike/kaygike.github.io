@@ -15,8 +15,8 @@ jobs:
             --output=index.html
             --toc
             --highlight-style=breezedark
-            --include-in-header=header.html
-            --include-after-body=footer.html
+            --include-in-header=${{ github.workspace }}/header.html
+            --include-after-body=${{ github.workspace }}/footer.html
             --css=style.css
             --metadata title="kaygike"
-            index.md
+            ${{ github.workspace }}/index.md
