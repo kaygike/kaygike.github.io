@@ -1,0 +1,22 @@
+name: Build site w/ pandoc
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      #- run: echo "foo" > input.txt  # create an example file
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --from=markdown
+            --to=html
+            --output=index.html
+            --toc=true
+            --highlight-style=breezedark
+            --include-in-header=header.html
+            --include-after-body=footer.html
+            --css=style.css
+            --metadata title="kaygike"
+            index.md
