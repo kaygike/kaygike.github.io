@@ -20,3 +20,4 @@ jobs:
             --css=style.css
             --metadata title="kaygike"
             index.md
+      - run: echo lol
