@@ -13,7 +13,7 @@ jobs:
             --from=markdown
             --to=html
             --output=index.html
-            --toc
+            --toc=true
             --highlight-style=breezedark
             --include-in-header=header.html
             --include-after-body=footer.html
