@@ -155,6 +155,8 @@ $ wget --directory-prefix=path/to/save --no-directories --recursive --level=1 --
 
 download video with metadata file
 
+> use ```--batch-file FILE``` to use a text file with urls
+
 ```bash
 $ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title)s_%(upload_date)s_%(id)s.%(ext)s" http://video.url/id
 ```
