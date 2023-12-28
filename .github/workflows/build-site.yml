@@ -6,7 +6,7 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
     steps:
-      #- run: echo "foo" > input.txt  # create an example file
+      - uses: actions/checkout@v3
       - uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
@@ -15,8 +15,8 @@ jobs:
             --output=index.html
             --toc
             --highlight-style=breezedark
-            --include-in-header=${{ github.workspace }}/header.html
-            --include-after-body=${{ github.workspace }}/footer.html
+            --include-in-header=header.html
+            --include-after-body=footer.html
             --css=style.css
             --metadata title="kaygike"
-            ${{ github.workspace }}/index.md
+            index.md
