@@ -30,31 +30,32 @@ content, header, footer {
     -webkit-box-sizing: border-box;
 }
 header {
-    border: var(--border);
-    margin-top: var(--gap);
+    background: var(--bg);
+    max-width: var(--width);
     padding: var(--gap);
-    padding-top: 1ch;
+    padding-top: 0;
+    position: fixed;
     text-align: center;
+    top: 0;
     width: 100%;
+    z-index: 1;
 }
 footer {
-    border: var(--border);
-    margin-bottom: var(--gap);
+    background: var(--bg);
+    border-padding: var(--gap);
     padding: var(--gap);
     text-align: center;
     width: 100%;
 }
 content {
-    border-left: var(--border);
-    border-right: var(--border);
     display: block;
-    padding: var(--gap); 
+    padding: 12ch var(--gap) 6ch var(--gap);
     width: 100%;
 }
 #top {
     font-size: 24pt;
     font-weight: bold;
-    padding: var(--gap);
+/*    padding: var(--gap); */
     padding-top: 1ch;
 }
 content > header#title-block-header {
@@ -74,20 +75,20 @@ h3 {
     margin-top: 40px;
 }
 
-/* ```code ``` */
-/*div.sourceCode {
-    position: relative;
-    z-index: -1;
-*/
+/* ```code``` */
+div.sourceCode {
+    padding: 1ch;
 }
-pre > code {
-    display: block;
-    padding: 1ch 2ch;
+pre.sourceCode {
+    overflow-x: scroll;
+}
+pre > code.sourceCode {
+    box-decoration-break: clone
+    position: unset;
 }
 code {
     background: #222;
     color: #eee;
-    padding: 0 1ch;
 }
 
 /* > blockquotes */
@@ -102,12 +103,12 @@ blockquote > p:before {
 ul {
     padding-left: 0;
 }
-li {
+ul li {
     list-style-type: none;
     font-weight: bold;
     margin-bottom: 4ch;
 }
-li li {
+ul li li {
     display: inline-block;
     font-weight: normal;
     margin-bottom: unset;
