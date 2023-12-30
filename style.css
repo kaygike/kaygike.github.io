@@ -67,9 +67,10 @@ nav {
 
 /* headers */
 h2 {
+    border-bottom: var(--border);
     border-left: 12pt solid #222;
     padding-left: 12pt;
-    margin-top: 100px;
+    margin-top: 30ch;
 }
 h3 {
     margin-top: 40px;
