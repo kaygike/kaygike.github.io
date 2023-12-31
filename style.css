@@ -77,6 +77,19 @@ h3 {
     margin-top: 40px;
 }
 
+h1 ~ *:not(h1) {
+  margin-left: 0em;
+}
+h2 ~ *:not(h1):not(h2) {
+  margin-left: 2ch;
+}
+h3 ~ *:not(h1):not(h2):not(.h2):not(h3) {
+  margin-left: 4ch;
+}
+h4 ~ *:not(h1):not(h2):not(.h2):not(h3):not(.h3):not(h4) {
+  margin-left: 6ch;
+}
+
 /* ```code``` */
 div.sourceCode {
     padding: 1ch;
@@ -94,7 +107,8 @@ blockquote {
     margin-left: unset;
 }
 blockquote > p:before {
-    content: "\00a0\00a0> ";    
+/*  content: "\00a0\00a0> "; */
+    content: "> ";    
 }
 
 /* * lists */
