@@ -120,7 +120,7 @@
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
-<li><a href="#cmds" id="toc-cmds">cmds</a>
+<li><a href="#cmds" id="toc-cmds">CMDs</a>
 <ul>
 <li><a href="#z" id="toc-z">7z</a></li>
 <li><a href="#bdfr" id="toc-bdfr">bdfr</a></li>
@@ -134,43 +134,48 @@
 <li><a href="#wget" id="toc-wget">wget</a></li>
 <li><a href="#yt-dlp" id="toc-yt-dlp">yt-dlp</a></li>
 </ul></li>
-<li><a href="#bookmarks" id="toc-bookmarks">bookmarks</a>
+<li><a href="#bookmarks" id="toc-bookmarks">Bookmarks</a>
 <ul>
 <li><a href="#awesome-lists" id="toc-awesome-lists">‘awesome’
 lists</a></li>
-<li><a href="#literature" id="toc-literature">literature</a></li>
-<li><a href="#magnets" id="toc-magnets">magnets</a></li>
+<li><a href="#literature" id="toc-literature">Literature</a></li>
+<li><a href="#magnets" id="toc-magnets">Magnets</a></li>
 </ul></li>
-<li><a href="#scripts" id="toc-scripts">scripts</a>
+<li><a href="#scripts" id="toc-scripts">Scripts</a>
 <ul>
 <li><a href="#mises.py" id="toc-mises.py">mises.py</a></li>
 </ul></li>
+<li><a href="#writing" id="toc-writing">Writing</a>
+<ul>
+<li><a href="#excel-best-practices" id="toc-excel-best-practices">Excel
+best practices</a></li>
+</ul></li>
 </ul>
 </nav>
-<h2 id="cmds">cmds</h2>
+<h2 id="cmds">CMDs</h2>
 <h3 id="z">7z</h3>
-<p>create archive w/ no compression and encrypted filenames</p>
+<p>Create archive w/ no compression and encrypted filenames.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> 7z a <span class="at">-p</span> <span class="at">-bt</span> <span class="at">-mx</span><span class="op">=</span>0 <span class="at">-mhe</span><span class="op">=</span>on archive.7z file1 file2 file3<span class="op">&lt;</span>/code<span class="op">&gt;</span></span></code></pre></div>
 <h3 id="bdfr">bdfr</h3>
-<p>bulk archive a subreddit</p>
+<p>Bulk archive a subreddit.</p>
 <blockquote>
-<p>two separate operations shown below</p>
+<p>Two separate operations shown below.</p>
 </blockquote>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> bdfr clone ~/save_dir/ <span class="at">--subreddit</span> unixporn <span class="at">--log</span> ~/save_dir/log.log <span class="at">--sort</span> top <span class="at">--time</span> all <span class="at">--make-hard-links</span> <span class="at">--file-scheme</span> <span class="st">&quot;{DATE}_{POSTID}_{UPVOTES}&quot;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> bdfr clone ~/save_dir/ <span class="at">--subreddit</span> unixporn <span class="at">--log</span> ~/save_dir/log.log <span class="at">--make-hard-links</span> <span class="at">--folder-scheme</span> <span class="st">&quot;{DATE}_{TITLE}_{POSTID}_{UPVOTES}&quot;</span> <span class="at">--file-scheme</span> <span class="st">&quot;{UPVOTES}_{DATE}_{REDDITOR}_{POSTID}</span></span></code></pre></div>
 <h3 id="ffmpeg">ffmpeg</h3>
-<p>convert ape to flac</p>
+<p>Convert APE to FLAC.</p>
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> fmpeg <span class="at">-i</span> INPUT.ape OUTPUT.flac</span></code></pre></div>
-<p>convert all m4a to flac and preserve filenames</p>
+<p>Convert all m4a to FLAC and preserve filenames.</p>
 <div class="sourceCode" id="cb4"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> for f in <span class="pp">*</span>.m4a<span class="kw">;</span> <span class="cf">do</span> <span class="ex">ffmpeg</span> <span class="at">-i</span> <span class="st">&quot;</span><span class="va">$f</span><span class="st">&quot;</span> <span class="st">&quot;</span><span class="va">${f</span><span class="op">%</span>.m4a<span class="va">}</span><span class="st">&quot;</span>.flac<span class="kw">;</span> <span class="cf">done</span></span></code></pre></div>
-<p>merge multiple files into one without re-encoding</p>
+<p>Merge multiple files into one without re-encoding.</p>
 <blockquote>
-<p>specific format for CONCAT.txt file</p>
+<p>Specific format for CONCAT.txt file</p>
 </blockquote>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cat CONCAT.txt</span>
@@ -179,67 +184,67 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ffmpeg <span class="at">-f</span> concat <span class="at">-safe</span> 0 <span class="at">-i</span> CONCAT.txt <span class="at">-c</span> copy output.mp4</span></code></pre></div>
 <h3 id="git">git</h3>
-<p>managing multiple usernames</p>
+<p>Managing multiple usernames.</p>
 <blockquote>
 <ol type="1">
-<li>setup <code>~/.ssh/config</code> using
+<li>Setup <code>~/.ssh/config</code> using
 e.g. <code>Host github.com-user1</code> and
-<code>Host github.com-user2</code> (<a
+<code>Host github.com-user2</code>. (<a
 href="https://www.howtogeek.com/devops/how-to-fix-git-using-the-wrong-ssh-key-account/">source</a>)</li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="2" type="1">
-<li>setup remote origins to use the above dummy hosts,
-e.g. <code>git remote set-url origin git@github.com-user1:user1/reponame.git</code>
+<li>Setup remote origins to use the above dummy hosts,
+e.g. <code>git remote set-url origin git@github.com-user1:user1/reponame.git</code>.
 (<a
 href="https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository">source</a>)</li>
 </ol>
 </blockquote>
 <h3 id="md5sum">md5sum</h3>
-<p>list duplicate files in directory (<a
+<p>List duplicate files in directory. (<a
 href="https://unix.stackexchange.com/questions/277697/whats-the-quickest-way-to-find-duplicated-files/277707#277707">source</a>)</p>
 <div class="sourceCode" id="cb6"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> find . ! <span class="at">-empty</span> <span class="at">-type</span> f <span class="at">-exec</span> md5sum {} + <span class="kw">|</span> <span class="fu">sort</span> <span class="kw">|</span> <span class="fu">uniq</span> <span class="at">-w32</span> <span class="at">-dD</span></span></code></pre></div>
-<p>create file with md5 checksums for all flac in directories
-(one-deep)</p>
+<p>Create file with md5 checksums for all FLAC in directories
+(one-deep).</p>
 <div class="sourceCode" id="cb7"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> for dir in <span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span> <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-d</span> <span class="va">$dir</span> <span class="ot">-a</span> <span class="ot">!</span> <span class="ot">-h</span> <span class="va">$dir</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> <span class="bu">cd</span> <span class="at">--</span> <span class="st">&quot;</span><span class="va">$dir</span><span class="st">&quot;</span><span class="kw">;</span> <span class="bu">echo</span> <span class="st">&quot;Generating md5sum for &#39;</span><span class="va">$dir</span><span class="st">&#39;&quot;</span><span class="kw">;</span> <span class="fu">md5sum</span> <span class="pp">*</span>.flac <span class="op">&gt;</span> checksum.md5<span class="kw">;</span> <span class="bu">cd</span> .. <span class="kw">;</span> <span class="cf">fi</span><span class="kw">;</span> <span class="cf">done</span><span class="kw">;</span></span></code></pre></div>
 <h3 id="pacman">pacman</h3>
-<p>find install location of package</p>
+<p>Find install location of package.</p>
 <div class="sourceCode" id="cb8"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> pacman <span class="at">-Fql</span> <span class="op">&lt;</span>PACKAGENAME<span class="op">&gt;</span> <span class="kw">|</span> <span class="fu">grep</span> <span class="at">-E</span> <span class="st">&quot;^usr/bin.+&quot;</span></span></code></pre></div>
 <h3 id="podcast-dl">podcast-dl</h3>
-<p>download audio w/ metadata from rss feed</p>
+<p>Download audio w/ metadata from RSS feed.</p>
 <div class="sourceCode" id="cb9"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> npx podcast-dl <span class="at">--url</span> <span class="op">&lt;</span>rss url<span class="op">&gt;</span> --episode-template <span class="st">&quot;{{release_date}} {{title}}&quot;</span> <span class="at">--archive</span> archive.archive <span class="at">--include-meta</span> <span class="at">--include-episode-meta</span> <span class="at">--out-dir</span> <span class="st">&quot;.&quot;</span></span></code></pre></div>
 <h3 id="rsync">rsync</h3>
-<p>mirror directory to another location and log to file</p>
+<p>Mirror directory to another location and log to file.</p>
 <blockquote>
-<p>requires backslashes at end of directories</p>
+<p>Requires backslashes at end of directories.</p>
 </blockquote>
 <blockquote>
-<p>remove –dry-run to execute; ‘–delete’ used to mirror directory
-contents</p>
+<p>Remove –dry-run to execute; ‘–delete’ used to mirror directory
+contents.</p>
 </blockquote>
 <div class="sourceCode" id="cb10"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> rsync <span class="at">--dry-run</span> <span class="at">--archive</span> <span class="at">--human-readable</span> <span class="at">--itemize-changes</span> <span class="at">--verbose</span> <span class="at">--exclude</span><span class="op">=</span><span class="st">&quot;lost+found&quot;</span> <span class="at">--delete</span> FILES_TO_COPY/ WHERE_TO_COPY_TO/ <span class="kw">|</span> <span class="fu">tee</span> ~/DATE_rsync.log</span></code></pre></div>
 <h3 id="shnsplit">shnsplit</h3>
-<p>split and tag flac file via cuesheet</p>
+<p>Split and tag flac FLAC via cuesheet.</p>
 <blockquote>
-<p>requires cuesheet.sh, trash-cli to delete pregap file, and no more
-than 1 flac file and 1 cue file in directory</p>
+<p>Requires cuesheet.sh, trash-cli to delete pregap file, and no more
+than 1 flac file and 1 cue file in directory.</p>
 </blockquote>
 <div class="sourceCode" id="cb11"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> shnsplit <span class="at">-f</span> <span class="pp">*</span>.cue <span class="at">-t</span> %n_%t <span class="at">-o</span> flac <span class="pp">*</span>.flac<span class="kw">;</span> <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-f</span> <span class="st">&quot;00_pregap.flac&quot;</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> <span class="ex">trash</span> 00_pregap.flac<span class="kw">;</span> <span class="cf">fi</span><span class="kw">;</span> <span class="ex">cuetag.sh</span> <span class="pp">*</span>.cue <span class="pp">[</span><span class="ss">0</span><span class="pp">-</span><span class="ss">9</span><span class="pp">]*</span>.flac</span></code></pre></div>
-<p>the above, but recursively through subdirectories</p>
+<p>The above, but recursively through subdirectories.</p>
 <div class="sourceCode" id="cb12"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> for d in <span class="pp">*</span>/ <span class="kw">;</span> <span class="cf">do</span> <span class="bu">cd</span> <span class="st">&quot;</span><span class="va">$d</span><span class="st">&quot;</span><span class="kw">;</span> <span class="bu">pwd</span><span class="kw">;</span> <span class="ex">shnsplit</span> <span class="at">-f</span> <span class="pp">*</span>.cue <span class="at">-t</span> %n_%t <span class="at">-o</span> flac <span class="pp">*</span>.flac<span class="kw">;</span> <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-f</span> <span class="st">&quot;00_pregap.flac&quot;</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> <span class="ex">trash</span> 00_pregap.flac<span class="kw">;</span> <span class="cf">fi</span><span class="kw">;</span> <span class="ex">cuetag.sh</span> <span class="pp">*</span>.cue <span class="pp">[</span><span class="ss">0</span><span class="pp">-</span><span class="ss">9</span><span class="pp">]*</span>.flac<span class="kw">;</span> <span class="bu">cd</span> ..<span class="kw">;</span> <span class="cf">done</span></span></code></pre></div>
 <h3 id="wget">wget</h3>
-<p>download numerical increments</p>
+<p>Download numerical increments.</p>
 <div class="sourceCode" id="cb13"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> wget https://domain.tld/path/to/files/file{1..100}.filetype</span></code></pre></div>
-<p>download numerical &amp; alphabetical increments</p>
+<p>Download numerical &amp; alphabetical increments.</p>
 <div class="sourceCode" id="cb14"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#! /bin/bash</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Downloads file01a.ext, file01b.ext... file12f.ext, etc.</span></span>
@@ -262,17 +267,17 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href=
 <span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>          <span class="cf">done</span></span>
 <span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>      <span class="cf">done</span></span>
 <span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>  <span class="cf">done</span></span></code></pre></div>
-<p>download specific filetype/extensions</p>
+<p>Download specific filetype/extensions.</p>
 <div class="sourceCode" id="cb15"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> wget <span class="at">--directory-prefix</span><span class="op">=</span>path/to/save <span class="at">--no-directories</span> <span class="at">--recursive</span> <span class="at">--level</span><span class="op">=</span>1 <span class="at">--span-hosts</span> <span class="at">--domains</span><span class="op">=</span>https://domain.tld <span class="at">--accept</span> ext1,ext2,ext3 https://domain.tld/path/to/files</span></code></pre></div>
 <h3 id="yt-dlp">yt-dlp</h3>
-<p>download video with metadata file</p>
+<p>Download video with metadata file.</p>
 <blockquote>
 <p>use <code>--batch-file FILE</code> to use a text file with urls</p>
 </blockquote>
 <div class="sourceCode" id="cb16"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> yt-dlp <span class="at">--add-metadata</span> <span class="at">--write-info-json</span> <span class="at">--restrict-filenames</span> <span class="at">--output</span> <span class="st">&quot;%(title)s_%(upload_date)s_%(id)s.%(ext)s&quot;</span> http://video.url/id</span></code></pre></div>
-<h2 id="bookmarks">bookmarks</h2>
+<h2 id="bookmarks">Bookmarks</h2>
 <h3 id="awesome-lists">‘awesome’ lists</h3>
 <ul>
 <li><a href="https://github.com/agarrharr/awesome-cli-apps">cli</a></li>
@@ -284,30 +289,30 @@ libs</a></li>
 href="https://github.com/awesome-selfhosted/awesome-selfhosted">self-hosted</a></li>
 <li><a href="https://github.com/rothgar/awesome-tuis">tui</a></li>
 </ul>
-<h3 id="literature">literature</h3>
+<h3 id="literature">Literature</h3>
 <ul>
 <li><a href="https://annas-archive.org">anna’s archive</a></li>
 <li><a href="https://libgen.is">libgen</a></li>
 </ul>
-<h3 id="magnets">magnets</h3>
+<h3 id="magnets">Magnets</h3>
 <ul>
 <li><a href="https://bitsearch.to">bitsearch</a></li>
 <li><a href="https://bt4gprx.com">bt4g</a></li>
 <li><a href="https://btdig.com">btdigg</a></li>
 <li><a href="https://snowfl.com">snowfl</a></li>
 </ul>
-<h2 id="scripts">scripts</h2>
+<h2 id="scripts">Scripts</h2>
 <h3 id="mises.py">mises.py</h3>
-<p>scrape pdfs from mises institute’s digital library</p>
+<p>Scrape pdfs from Mises Institute’s digital library.</p>
 <blockquote>
-<p>requires beautifulsoup</p>
+<p>Requires beautifulsoup.</p>
 </blockquote>
 <blockquote>
-<p>update range of forloop as needed</p>
+<p>Update range of forloop as needed.</p>
 </blockquote>
 <blockquote>
-<p>for epub, use url <code>book_type=537</code> and change
-<code>pdf</code> to <code>epub</code> in script</p>
+<p>For epub, use url <code>book_type=537</code> and change
+<code>pdf</code> to <code>epub</code> in script.</p>
 </blockquote>
 <div class="sourceCode" id="cb17"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/usr/bin/env python3</span></span>
@@ -366,6 +371,104 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a h
 <span id="cb17-54"><a href="#cb17-54" aria-hidden="true" tabindex="-1"></a>    soup <span class="op">=</span> BeautifulSoup(req.content, <span class="st">&quot;lxml&quot;</span>)</span>
 <span id="cb17-55"><a href="#cb17-55" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Scraping page &quot;</span> <span class="op">+</span> <span class="bu">str</span>(p))</span>
 <span id="cb17-56"><a href="#cb17-56" aria-hidden="true" tabindex="-1"></a>    scrape_page(soup)</span></code></pre></div>
+<h2 id="writing">Writing</h2>
+<h3 id="excel-best-practices">Excel best practices</h3>
+<p>Below are five (5) core tenets for using Excel or other spreadsheet
+software, in no particular order:</p>
+<h4 id="comprehensibility">Comprehensibility</h4>
+<blockquote>
+<p>The quicker your workbook can be comprehended by others, the
+better.</p>
+</blockquote>
+<p>For comprehensibility, you should document what’s happening on each
+worksheet and try to avoid using excessively complex formulas. This
+might mean you use “helper” columns or rows to accomplish your task
+across multiple cells instead of using a long formula that’s difficult
+to audit.</p>
+<p>Your worksheets should be ordered by importance from left-to-right,
+going from a table of contents sheet (if necessary), to output sheets
+(executive summary), to input sheets (which drive the model), to
+calculation sheets (which do the heavy lifting). Also, reset all
+worksheets to the A1 cell and select the leftmost worksheet before
+closing the workbook.</p>
+<p>Fonts should have monospace numbers so periods and commas align
+within each column. This probably also requires you to select certain
+cell formatting to keep everything aligned. Eventually, the bottom of
+this article will provide details on how to keep the periods, commas,
+and parenthesis aligned for dollar amounts, integers, and
+percentages.</p>
+<pre><code>  10,000.00
+  (4,000.00)
+    (300.00)
+   5,700.50
+      25.50%     </code></pre>
+<h4 id="compatability">Compatability</h4>
+<blockquote>
+<p>Models should function regardless of software settings – or specify
+the needs</p>
+</blockquote>
+<p>The model should work regardless of the version of Excel or its
+settings.</p>
+<p>Generally speaking, it’s fine to use newer functions instead of
+legacy ones to preserve compatibility. One of the main settings that may
+break a model when shared with another user, for example, is that the
+creator has Iterative Calculation enabled whereas the other does not.
+This is of particular interest for the core financial statements, where
+the projected pro forma Balance Sheets carry a cash &amp; equivalents
+value which increases (usually at the risk-free rate) on the Income
+Statement, while the Income Statement generates returns based on the
+Balance Sheet. The Income Statement is (in part) being generated by the
+Balance Sheet, and the Balance Sheet is (in part) being driven by the
+Income Statement.</p>
+<p>The Iterative Calculation setting can usually resolve these circular
+references, but if another user doesn’t have that setting enabled, then
+the pro forma statements won’t balance. Unfortunately, in such a case,
+the best available workaround is to write a macro which resolves the
+circular reference, but then the other user needs to run code which they
+may not have audited.</p>
+<p>Given these constraints, the creator needs to either clearly specify
+the software setting required for the model to function, or convince the
+other user to run the (unaudited) macro.</p>
+<h4 id="internal-consistency">Internal Consistency</h4>
+<blockquote>
+<p>Do similar things the same way.</p>
+</blockquote>
+<p>For legibility, perform similar actions using the same method or
+styling each time.</p>
+<pre><code>  Do this:      Not this:
+  ____A____     ____A_____
+1| =1         1| =1
+2| =A1 + 1    2| =A1 + 1
+3| =A2 + 1    3| =A2 * 1.5
+4| =A3 + 1    4| =2 + 2
+5| =A4 + 1    5| =sqrt(25)</code></pre>
+<h4 id="function-over-form">Function over Form</h4>
+<blockquote>
+<p>Emphasize accuracy over beauty.</p>
+</blockquote>
+<p>It’s always better to have an ugly working model than a beautiful
+broken model, and text colors should help identify inputs, outputs, and
+dependencies.</p>
+<ul>
+<li><p>Black text should be used for plain text, formulas, and cell
+references on the same worksheet. It shouldn’t need to be modified, as
+it simply outputs or calculates results.</p></li>
+<li><p>Blue text indicates an input or hard-coded data. It indicates a
+value which may be changed as an input to the model.</p></li>
+<li><p>Green text indcates a cell reference on a different sheet in the
+same workbook. It simply pulls data inputted or calculated on another
+sheet.</p></li>
+<li><p>Red text indicates a cell reference in a different workbook. It
+pulls data from another file, indicating dependency on another
+workbook.</p></li>
+</ul>
+<h4 id="separate-input-from-output">Separate Input from Output</h4>
+<blockquote>
+<p>Clearly distinguish which cells drive the model.</p>
+</blockquote>
+<p>Ideally, inputs and outputs should appear on separate worksheets so
+there is no confusion as to which cells drive the model and which cells
+are its result.</p>
 </content>
 <footer>(c) Copyright [current year].</footer>
 </body>
