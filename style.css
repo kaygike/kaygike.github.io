@@ -8,7 +8,7 @@
 
     --border: 2px solid #777;
     --font-family: monospace;
-    --font-size: 12pt;
+    --font-size: 14pt;
     --gap: 2ch;
     --width: 80ch;
 }
@@ -21,6 +21,7 @@ html {
 body {
     background: var(--bg);
     display: block;
+    font-size: var(--font-size);
     margin: 0 auto;
     max-width: var(--width);
 }
@@ -28,6 +29,7 @@ content, header, footer {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    font-size: var(--font-size);
 }
 header {
     background: var(--bg);
@@ -105,11 +107,14 @@ nav > ul > li {
     margin-top: 2ch;
     padding-top: 2ch;
 }
+nav > ul > li > ul {
+    display: block;
+    margin-left: 4ch;
+}
 nav ul > li li {
     display: inline-block;
     font-weight: normal;
     margin-top: 2ch;
-    margin-left: 4ch;
 }
 nav ul > li a {
     padding: 5px 10px;
