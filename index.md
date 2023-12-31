@@ -171,6 +171,18 @@ $ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title
 * [self-hosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 * [tui](https://github.com/rothgar/awesome-tuis)
 
+### literature
+
+* [anna's archive](https://annas-archive.org)
+* [libgen](https://libgen.is)
+
+### magnets
+
+* [bitsearch](https://bitsearch.to)
+* [bt4g](https://bt4gprx.com)
+* [btdigg](https://btdig.com)
+* [snowfl](https://snowfl.com)
+
 ## scripts
 
 ### mises.py

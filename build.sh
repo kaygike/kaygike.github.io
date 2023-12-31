@@ -5,7 +5,7 @@ pandoc \
 --to=html \
 --output=index.html \
 --toc=true \
---highlight-style=breezedark \
+--highlight-style=kate \
 --include-in-header=header.html \
 --include-after-body=footer.html \
 --css=style.css \

@@ -55,7 +55,6 @@ content {
 #top {
     font-size: 24pt;
     font-weight: bold;
-/*    padding: var(--gap); */
     padding-top: 1ch;
 }
 content > header#title-block-header {
@@ -67,9 +66,10 @@ nav {
 
 /* headers */
 h2 {
+    border-bottom: var(--border);
     border-left: 12pt solid #222;
     padding-left: 12pt;
-    margin-top: 100px;
+    margin-top: 30ch;
 }
 h3 {
     margin-top: 40px;
@@ -86,10 +86,6 @@ pre > code.sourceCode {
     box-decoration-break: clone
     position: unset;
 }
-code {
-    background: #222;
-    color: #eee;
-}
 
 /* > blockquotes */
 blockquote { 
@@ -100,20 +96,26 @@ blockquote > p:before {
 }
 
 /* * lists */
-ul {
+nav ul {
     padding-left: 0;
 }
-ul li {
+nav > ul > li {
     list-style-type: none;
     font-weight: bold;
-    margin-bottom: 4ch;
+    margin-top: 2ch;
+    padding-top: 2ch;
 }
-ul li li {
+nav ul > li li {
     display: inline-block;
     font-weight: normal;
-    margin-bottom: unset;
-    margin-left: var(--gap);
-    padding-left: var(--gap);
+    margin-top: 2ch;
+    margin-left: 4ch;
+}
+nav ul > li a {
+    padding: 5px 10px;
+}
+li {
+    list-style-type: square;
 }
 
 /* [links] */
