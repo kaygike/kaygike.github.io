@@ -197,6 +197,7 @@ $ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title
 * [bitsearch](https://bitsearch.to)
 * [bt4g](https://bt4gprx.com)
 * [btdigg](https://btdig.com)
+* [MagnetDL](https://www.magnetdl.com)
 * [snowfl](https://snowfl.com)
 
 
