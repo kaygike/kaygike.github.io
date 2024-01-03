@@ -2,11 +2,12 @@
     --primary: #a22;
     --secondary: #c90;
     --tertiary: #069;
-    --light: #ddd;
+    --white: #fff;
+    --light: #eee;
     --dark: #111;
     --bg: #eee;
 
-    --border: 2px solid #777;
+    --border: 1px solid #333;
     --font-family: monospace;
     --font-size: 10pt;
     --gap: 2ch;
@@ -16,7 +17,7 @@
 html {
     background: var(--light);
     font-family: var(--font-family);
-    scroll-padding-top: 100px;
+    scroll-padding-top: 12ch;
 }
 body {
     background: var(--bg);
@@ -33,17 +34,19 @@ content, header, footer {
 }
 header {
     background: var(--bg);
+    border-bottom: var(--border);
     max-width: var(--width);
-    padding: var(--gap);
-    padding-top: 0;
+    padding-bottom: var(--gap);
+    padding-top: 1ch;
     position: fixed;
-    text-align: center;
+    text-align: left;
     top: 0;
     width: 100%;
     z-index: 1;
 }
 footer {
     background: var(--bg);
+    border-top: var(--border);
     border-padding: var(--gap);
     padding: var(--gap);
     text-align: center;
@@ -51,27 +54,38 @@ footer {
 }
 content {
     display: block;
-    padding: 12ch var(--gap) 6ch var(--gap);
+    margin-top: 10ch;
     width: 100%;
 }
-#top {
+#home {
     font-size: 24pt;
     font-weight: bold;
-    padding-top: 1ch;
+    margin: 0ch 1ch 1ch 0ch;
 }
 content > header#title-block-header {
     display: none;
 }
-nav {
-    margin-top: 40px;
+nav#nav {
+    display: inline-block;
+    margin-left: 1ch;
+}
+nav#nav a {
+    margin-right: 1ch;
 }
 
 /* headers */
+h1 {
+/*    border-bottom: var(--border); */
+/*    border-left: 12pt solid #222; */
+/*    padding-left: 12pt; */
+    display: none;
+    margin-top: 5ch;
+}
 h2 {
-    border-bottom: var(--border);
-    border-left: 12pt solid #222;
-    padding-left: 12pt;
-    margin-top: 30ch;
+/*    border-bottom: var(--border); */
+/*    border-left: 12pt solid #222; */
+/*    padding-left: 12pt; */
+    margin-top: 5ch;
 }
 h3 {
     margin-top: 40px;
@@ -81,16 +95,21 @@ h1 ~ *:not(h1) {
   margin-left: 0em;
 }
 h2 ~ *:not(h1):not(h2) {
-  margin-left: 2ch;
+  margin-left: 0ch;
 }
 h3 ~ *:not(h1):not(h2):not(h3) {
-  margin-left: 4ch;
+  margin-left: 2ch;
 }
 h4 ~ *:not(h1):not(h2):not(h3):not(h4) {
-  margin-left: 6ch;
+  margin-left: 4ch;
 }
 
 /* ```code``` */
+p code, li code {
+    background: var(--white);
+    color: var(--dark);
+    padding: 0 1ch;
+}
 div.sourceCode {
     margin: unset;
     padding: 1ch;
@@ -113,29 +132,49 @@ blockquote > p:before {
 }
 
 /* * lists */
-nav {
+content nav {
+    border-bottom: var(--border);
     font-size: 10pt;
+    margin-top: 0px;
 }
-nav ul {
+/*
+content nav:after {
+    content: "***";
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+*/
+content nav ul {
     padding-left: 0;
 }
-nav > ul > li {
-    list-style-type: none;
+content nav > ul > li {
     font-weight: bold;
+    font-size: var(--font-size);
+    list-style-type: none;
     margin-top: 2ch;
-    padding-top: 2ch;
+    text-align: center;
 }
-nav > ul > li > ul {
+content nav > ul > li > a {
+    display: none;
+}
+content nav > ul > li > ul {
     display: block;
-    margin-left: 4ch;
+    font-size: var(--font-size);
+    margin-left: 0ch;
+    text-align: left;
 }
-nav ul > li li {
+content nav > ul > li > ul > li > ul {
+    display: block;
+    margin-left: 2ch;
+}
+content nav ul > li li {
     display: inline-block;
     font-weight: normal;
-    margin-top: 2ch;
+/*    margin-top: 2ch; */
 }
-nav ul > li a {
-    padding: 5px 10px;
+content nav ul > li a {
+    margin: 1ch;
 }
 li {
     list-style-type: square;

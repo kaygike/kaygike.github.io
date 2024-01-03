@@ -1,8 +1,6 @@
 # Code
 
-## Commands
-
-### 7z
+## 7z
 
 Create archive w/ no compression and encrypted filenames.
 
@@ -10,8 +8,7 @@ Create archive w/ no compression and encrypted filenames.
 $ 7z a -p -bt -mx=0 -mhe=on archive.7z file1 file2 file3</code>
 ````
 
-
-### bdfr
+## bdfr
 
 Bulk archive a subreddit.
 
@@ -23,8 +20,7 @@ $ bdfr clone ~/save_dir/ --subreddit unixporn --log ~/save_dir/log.log --sort to
 $ bdfr clone ~/save_dir/ --subreddit unixporn --log ~/save_dir/log.log --make-hard-links --folder-scheme "{DATE}_{TITLE}_{POSTID}_{UPVOTES}" --file-scheme "{UPVOTES}_{DATE}_{REDDITOR}_{POSTID}
 ```
 
-
-### ffmpeg
+## ffmpeg
 
 Convert APE to FLAC.
 
@@ -50,8 +46,7 @@ file '/path/to/file2'
 $ ffmpeg -f concat -safe 0 -i CONCAT.txt -c copy output.mp4
 ```
 
-
-### git
+## git
 
 Managing multiple usernames.
 
@@ -59,8 +54,7 @@ Managing multiple usernames.
 
 > 2. Setup remote origins to use the above dummy hosts, e.g. ```git remote set-url origin git@github.com-user1:user1/reponame.git```. ([source](https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository))
 
-
-### md5sum
+## md5sum
 
 List duplicate files in directory. ([source](https://unix.stackexchange.com/questions/277697/whats-the-quickest-way-to-find-duplicated-files/277707#277707))
 
@@ -74,111 +68,7 @@ Create file with md5 checksums for all FLAC in directories (one-deep).
 $ for dir in *; do if [ -d $dir -a ! -h $dir ]; then cd -- "$dir"; echo "Generating md5sum for '$dir'"; md5sum *.flac > checksum.md5; cd .. ; fi; done;
 ```
 
-
-### pacman
-
-Find install location of package.
-
-```bash
-$ pacman -Fql <PACKAGENAME> | grep -E "^usr/bin.+"
-```
-
-
-### podcast-dl
-
-Download audio w/ metadata from RSS feed.
-
-```bash
-$ npx podcast-dl --url <rss url> --episode-template "{{release_date}} {{title}}" --archive archive.archive --include-meta --include-episode-meta --out-dir "."
-```
-
-
-### rsync
-
-Mirror directory to another location and log to file.
-
-> Requires backslashes at end of directories.
-
-> Remove --dry-run to execute; '--delete' used to mirror directory contents.
-
-```bash
-$ rsync --dry-run --archive --human-readable --itemize-changes --verbose --exclude="lost+found" --delete FILES_TO_COPY/ WHERE_TO_COPY_TO/ | tee ~/DATE_rsync.log
-```
-
-
-### shnsplit
-
-Split and tag flac FLAC via cuesheet.
-
-> Requires cuesheet.sh, trash-cli to delete pregap file, and no more than 1 flac file and 1 cue file in directory.
-
-```bash
-$ shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac
-```
-
-The above, but recursively through subdirectories.
-
-```bash
-$ for d in */ ; do cd "$d"; pwd; shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac; cd ..; done
-```
-
-
-### wget
-
-Download numerical increments.
-
-```bash
-$ wget https://domain.tld/path/to/files/file{1..100}.filetype
-```
-
-Download numerical & alphabetical increments.
-
-```bash
-#! /bin/bash
-# Downloads file01a.ext, file01b.ext... file12f.ext, etc.
-HREF="protocol://domain.tld/path/to/files/file"
-TENS=0
-ONES=0
-LETTER=A
-EXT=".EXT"
-URL="$URL$TENS$ONES$LETTER$EXT"
-print $URL
-for (( i = 0; i<= 9; i++ ))
-  do
-    for (( j = 0; j<= 9; j++ ))
-      do
-        for letter in {a..z}
-          do
-            URL="$HREF$i$j$letter$EXT"
-            echo $URL
-            wget $URL
-          done
-      done
-  done
-```
-
-Download specific filetype/extensions.
-
-```bash
-$ wget --directory-prefix=path/to/save --no-directories --recursive --level=1 --span-hosts --domains=https://domain.tld --accept ext1,ext2,ext3 https://domain.tld/path/to/files
-```
-
-
-### yt-dlp
-
-Download video with metadata file.
-
-> use ```--batch-file FILE``` to use a text file with urls
-
-```bash
-$ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title)s_%(upload_date)s_%(id)s.%(ext)s" http://video.url/id
-```
-
-
-## Scripts
-
-
-### mises.py
+## mises.py
 
 Scrape pdfs from Mises Institute's digital library.
 
@@ -245,4 +135,98 @@ for p in range(1,57):
     soup = BeautifulSoup(req.content, "lxml")
     print("Scraping page " + str(p))
     scrape_page(soup)
+```
+
+## pacman
+
+Find install location of package.
+
+```bash
+$ pacman -Fql <PACKAGENAME> | grep -E "^usr/bin.+"
+```
+
+## podcast-dl
+
+Download audio w/ metadata from RSS feed.
+
+```bash
+$ npx podcast-dl --url <rss url> --episode-template "{{release_date}} {{title}}" --archive archive.archive --include-meta --include-episode-meta --out-dir "."
+```
+
+## rsync
+
+Mirror directory to another location and log to file.
+
+> Requires backslashes at end of directories.
+
+> Remove --dry-run to execute; '--delete' used to mirror directory contents.
+
+```bash
+$ rsync --dry-run --archive --human-readable --itemize-changes --verbose --exclude="lost+found" --delete FILES_TO_COPY/ WHERE_TO_COPY_TO/ | tee ~/DATE_rsync.log
+```
+
+## shnsplit
+
+Split and tag flac FLAC via cuesheet.
+
+> Requires cuesheet.sh, trash-cli to delete pregap file, and no more than 1 flac file and 1 cue file in directory.
+
+```bash
+$ shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac
+```
+
+The above, but recursively through subdirectories.
+
+```bash
+$ for d in */ ; do cd "$d"; pwd; shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac; cd ..; done
+```
+
+## wget
+
+Download numerical increments.
+
+```bash
+$ wget https://domain.tld/path/to/files/file{1..100}.filetype
+```
+
+Download numerical & alphabetical increments.
+
+```bash
+#! /bin/bash
+# Downloads file01a.ext, file01b.ext... file12f.ext, etc.
+HREF="protocol://domain.tld/path/to/files/file"
+TENS=0
+ONES=0
+LETTER=A
+EXT=".EXT"
+URL="$URL$TENS$ONES$LETTER$EXT"
+print $URL
+for (( i = 0; i<= 9; i++ ))
+  do
+    for (( j = 0; j<= 9; j++ ))
+      do
+        for letter in {a..z}
+          do
+            URL="$HREF$i$j$letter$EXT"
+            echo $URL
+            wget $URL
+          done
+      done
+  done
+```
+
+Download specific filetype/extensions.
+
+```bash
+$ wget --directory-prefix=path/to/save --no-directories --recursive --level=1 --span-hosts --domains=https://domain.tld --accept ext1,ext2,ext3 https://domain.tld/path/to/files
+```
+
+## yt-dlp
+
+Download video with metadata file.
+
+> use ```--batch-file FILE``` to use a text file with urls
+
+```bash
+$ yt-dlp --add-metadata --write-info-json --restrict-filenames --output "%(title)s_%(upload_date)s_%(id)s.%(ext)s" http://video.url/id
 ```
