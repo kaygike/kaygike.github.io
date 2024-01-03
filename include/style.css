@@ -1,0 +1,147 @@
+:root {
+    --primary: #a22;
+    --secondary: #c90;
+    --tertiary: #069;
+    --light: #ddd;
+    --dark: #111;
+    --bg: #eee;
+
+    --border: 2px solid #777;
+    --font-family: monospace;
+    --font-size: 10pt;
+    --gap: 2ch;
+    --width: 80ch;
+}
+
+html {
+    background: var(--light);
+    font-family: var(--font-family);
+    scroll-padding-top: 100px;
+}
+body {
+    background: var(--bg);
+    display: block;
+    font-size: var(--font-size);
+    margin: 0 auto;
+    max-width: var(--width);
+}
+content, header, footer {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: var(--font-size);
+}
+header {
+    background: var(--bg);
+    max-width: var(--width);
+    padding: var(--gap);
+    padding-top: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+footer {
+    background: var(--bg);
+    border-padding: var(--gap);
+    padding: var(--gap);
+    text-align: center;
+    width: 100%;
+}
+content {
+    display: block;
+    padding: 12ch var(--gap) 6ch var(--gap);
+    width: 100%;
+}
+#top {
+    font-size: 24pt;
+    font-weight: bold;
+    padding-top: 1ch;
+}
+content > header#title-block-header {
+    display: none;
+}
+nav {
+    margin-top: 40px;
+}
+
+/* headers */
+h2 {
+    border-bottom: var(--border);
+    border-left: 12pt solid #222;
+    padding-left: 12pt;
+    margin-top: 30ch;
+}
+h3 {
+    margin-top: 40px;
+}
+
+h1 ~ *:not(h1) {
+  margin-left: 0em;
+}
+h2 ~ *:not(h1):not(h2) {
+  margin-left: 2ch;
+}
+h3 ~ *:not(h1):not(h2):not(h3) {
+  margin-left: 4ch;
+}
+h4 ~ *:not(h1):not(h2):not(h3):not(h4) {
+  margin-left: 6ch;
+}
+
+/* ```code``` */
+div.sourceCode {
+    margin: unset;
+    padding: 1ch;
+}
+pre.sourceCode {
+    overflow-x: scroll;
+}
+pre > code.sourceCode {
+    box-decoration-break: clone
+    position: unset;
+}
+
+/* > blockquotes */
+blockquote { 
+/*    margin-left: unset; */
+}
+blockquote > p:before {
+/*  content: "\00a0\00a0> "; */
+    content: "> ";    
+}
+
+/* * lists */
+nav {
+    font-size: 10pt;
+}
+nav ul {
+    padding-left: 0;
+}
+nav > ul > li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 2ch;
+    padding-top: 2ch;
+}
+nav > ul > li > ul {
+    display: block;
+    margin-left: 4ch;
+}
+nav ul > li li {
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 2ch;
+}
+nav ul > li a {
+    padding: 5px 10px;
+}
+li {
+    list-style-type: square;
+}
+
+/* [links] */
+a {
+    color: var(--primary);
+}
