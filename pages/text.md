@@ -1,3 +1,5 @@
+# Text
+
 ## Excel best practices
 
 Below are five (5) core tenets for using Excel or other spreadsheet software, in no particular order:
