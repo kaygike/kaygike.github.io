@@ -75,11 +75,7 @@ nav#nav a {
 
 /* headers */
 h1 {
-/*    border-bottom: var(--border); */
-/*    border-left: 12pt solid #222; */
-/*    padding-left: 12pt; */
-    display: none;
-    margin-top: 5ch;
+    border-bottom: var(--border);
 }
 h2 {
 /*    border-bottom: var(--border); */
@@ -124,11 +120,13 @@ pre > code.sourceCode {
 
 /* > blockquotes */
 blockquote { 
-/*    margin-left: unset; */
+    border-left: var(--border);
+    padding-left: 1ch;
+    margin-bottom: 3ch;
 }
 blockquote > p:before {
 /*  content: "\00a0\00a0> "; */
-    content: "> ";    
+/*    content: "> "; */
 }
 
 /* * lists */
