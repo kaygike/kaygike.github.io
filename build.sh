@@ -6,7 +6,7 @@
 # - header.html prefix and footer.html suffix
 # - custom stylesheet
 
-declare -a arr=("index" "books" "code" "other" "text")
+declare -a arr=("index" "books" "code" "other" "quotes" "text")
 
 for i in "${arr[@]}"
 do
