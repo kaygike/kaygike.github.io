@@ -26,6 +26,21 @@
 >-- G.K. Chesterton, Heresy
 
 
+## Joyce, James
+
+> -- I just wanted to say, he said. Ireland, they say, has the honour of being the only country which never persecuted the jews. Do you know that? No. And do you know why?
+> He frowned sternly on the bright air.
+> -- Why, sir? Stephen asked, beginning to smile.
+> -- Because she never let them in, Mr Deasy said solemnly.
+> A coughball of laughter leaped from his throat dragging after it a rattling chain of phlegm. He turned back quickly, coughing, laughing, his lifted arms waving to the air.
+> -- She never let them in, he cried again through his laughter as he stamped on galtered feet over the gravel of the path. That's why.
+>
+> -- James Joyce, Ulysses, Nestor, page 36
+
+> O and the sea the sea crimson sometimes like fire and the glorious sunsets and the figtrees in the Alameda gardens yes and all the queer little streets and pink and blue and yellow houses and the rosegardens and the jessamine and geraniums and cactuses and Gibraltar as a girl where I was a Flower of the mountain yes when I put the rose in my hair like the Andalusian girls used or shall I wear a red yes and how he kissed me under the Moorish wall and I thought well as well him as another and then I asked him with my eyes to ask again yes and then he asked me would I yes to say yes my mountain flower and first I put my arms around him yes and drew him down to me so he could feel my breasts all perfume yes and his heart was going like mad and yes I said yes I will Yes.
+>
+> -- James Joyce, Ulysses, Penelope, page 732
+
 ## Nitobé, Inazo
 
 > Speech is very often with us, as the Frenchman defined it, "the art of concealing thought."
