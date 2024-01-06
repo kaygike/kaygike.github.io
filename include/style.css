@@ -76,6 +76,7 @@ nav#nav a {
 /* headers */
 h1 {
     border-bottom: var(--border);
+    padding-bottom: 1ch;
 }
 h2 {
 /*    border-bottom: var(--border); */
@@ -135,14 +136,10 @@ content nav {
     font-size: 10pt;
     margin-top: 0px;
 }
-/*
-content nav:after {
-    content: "***";
-    display: block;
-    text-align: center;
-    width: 100%;
+content nav > ul {
+    column-count: 2;
+    padding-left: 0;
 }
-*/
 content nav ul {
     padding-left: 0;
 }
@@ -150,8 +147,6 @@ content nav > ul > li {
     font-weight: bold;
     font-size: var(--font-size);
     list-style-type: none;
-    margin-top: 2ch;
-    text-align: center;
 }
 content nav > ul > li > a {
     display: none;
@@ -162,17 +157,21 @@ content nav > ul > li > ul {
     margin-left: 0ch;
     text-align: left;
 }
+content nav > ul ul ul {
+    display: none;
+    margin-left: 2ch;
+}
+/*
 content nav > ul > li > ul > li > ul {
     display: block;
     margin-left: 2ch;
 }
+*/
 content nav ul > li li {
-    display: inline-block;
+    display: list-item;
     font-weight: normal;
-/*    margin-top: 2ch; */
-}
-content nav ul > li a {
-    margin: 1ch;
+    margin-left: 2ch;
+    padding: 0.5ch 0;
 }
 li {
     list-style-type: square;

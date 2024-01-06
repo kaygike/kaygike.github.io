@@ -1,5 +1,6 @@
+The Inquisition never ended.
 
-
+<!--
 <center>
 ```
       ████████████████      
@@ -18,3 +19,4 @@
       ████████████████      
 ```
 </center>
+-->
