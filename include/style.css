@@ -25,6 +25,7 @@ body {
     font-size: var(--font-size);
     margin: 0 auto;
     max-width: var(--width);
+    padding: 6px;
 }
 content, header, footer {
     box-sizing: border-box;
@@ -74,14 +75,22 @@ nav#nav a {
 }
 
 /* headers */
+/* h1 is inserted via html-template.pandoc file */
 h1 {
     border-bottom: var(--border);
     padding-bottom: 1ch;
+    text-transform: capitalize;
 }
+/* hide first instance of h1 (title) in markdown file, per above */
+h1:nth-of-type(2) {
+    display: none;
+}
+/* hide 'index' h1 on home page */
+h1[class="title index"] {
+    display: none;
+}
+
 h2 {
-/*    border-bottom: var(--border); */
-/*    border-left: 12pt solid #222; */
-/*    padding-left: 12pt; */
     margin-top: 5ch;
 }
 h3 {
@@ -125,16 +134,13 @@ blockquote {
     padding-left: 1ch;
     margin-bottom: 3ch;
 }
-blockquote > p:before {
-/*  content: "\00a0\00a0> "; */
-/*    content: "> "; */
-}
 
 /* * lists */
 content nav {
     border-bottom: var(--border);
     font-size: 10pt;
     margin-top: 0px;
+    margin-bottom: 5ch;
 }
 content nav > ul {
     column-count: 2;
@@ -161,12 +167,6 @@ content nav > ul ul ul {
     display: none;
     margin-left: 2ch;
 }
-/*
-content nav > ul > li > ul > li > ul {
-    display: block;
-    margin-left: 2ch;
-}
-*/
 content nav ul > li li {
     display: list-item;
     font-weight: normal;
