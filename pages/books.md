@@ -1,29 +1,45 @@
 # Books
 
-**Disclaimer: Spoilers.**
+::: Warning
+Spoilers
+:::
 
 ## 2001: A Space Odyssey
 
 2001: A Space Odyssey is a 1968 novel by Arthur C. Clarke developed concurrently with the Stanley Kubrick film of the same name.
 
-_Part I. Primeval Night._ Early man struggles to survive. They encounter a "New Rock" (Africus Monolith, e.g. TMA-0) which stimulates new mental activity, slowly leading to their development of more advanced tools and greater dominance over nature.
+**Part I. Primeval Night.** 
 
-_Part 2. TMA-1._ A quarantine on the moon is a cover story for a recent discovery nicknamed TMA-1, or the Tycho [crater] Magnetic Anomaly-1. TMA-1 is a black rectangular monolith dated 3,000,000 years old, found buried on the moon. It is the first evidence of extra-terrestrial intelligence, and emits five bursts of electronic shrieks while under investigation.
+Early man struggles to survive. They encounter a "New Rock" (Africus Monolith, e.g. TMA-0) which stimulates new mental activity, slowly leading to their development of more advanced tools and greater dominance over nature.
 
-_Part 3. Between Planets._ Five astronauts head towards Saturn on the Discovery spacecraft, guided by an artificially intelligent computer named HAL 9000. Three of the astronauts are in hibernation, and they pass Jupiter en route.
+**Part 2. TMA-1.** 
 
-_Part 4. Abyss._ HAL 9000 continually detects a malfunction in a critical communication device, even after one of the crew members replaces it. As ground control suggests that HAL 9000 itself may be malfunctioning, the device "fails" and communication with Earth is lost. Attempting to replace the device yet again, the pod abruptly changes position and knocks the crew member into deep space. HAL 9000 takes control of the ship and kills three of the remaining four crew members by opening the airlock while they’re sedated in hibernation. HAL 9000 is protecting the true, classified purpose of the mission – to explore a moon of Saturn suspected to be the origin of the TMA-1 monolith – before he is disconnected by the sole remaining crew member, Dave.
+A quarantine on the moon is a cover story for a recent discovery nicknamed TMA-1, or the Tycho [crater] Magnetic Anomaly-1. TMA-1 is a black rectangular monolith dated 3,000,000 years old, found buried on the moon. It is the first evidence of extra-terrestrial intelligence, and emits five bursts of electronic shrieks while under investigation.
 
-_Part 5. The Moons of Saturn._ Dave continues towards Saturn as a lone ambassador from Earth. He spots a larger version of TMA-1 on its surface, which was placed there 3,000,000 years ago by intelligent, extraterrestrial, extra-spatial life. As Dave nears Saturn’s monolith, the monolith unfolds spacetime absorbs Dave’s ship into its abyss. Dave senses he’s moving at incredible speed and believes the monolith to be some sort of "star gate" that facilitates faster-than-light travel. His pod lands in what appears to be an ordinary hotel room, prepared for someone of his species to eventually discover. He sleeps, relives his past, and is transformed into an extra-spatial omnipotent being ("Star-Child") with the power to influence matter and help guide mankind through a new stage of evolution.
+**Part 3. Between Planets.** 
+
+Five astronauts head towards Saturn on the Discovery spacecraft, guided by an artificially intelligent computer named HAL 9000. Three of the astronauts are in hibernation, and they pass Jupiter en route.
+
+**Part 4. Abyss.** 
+
+HAL 9000 continually detects a malfunction in a critical communication device, even after one of the crew members replaces it. As ground control suggests that HAL 9000 itself may be malfunctioning, the device "fails" and communication with Earth is lost. Attempting to replace the device yet again, the pod abruptly changes position and knocks the crew member into deep space. HAL 9000 takes control of the ship and kills three of the remaining four crew members by opening the airlock while they’re sedated in hibernation. HAL 9000 is protecting the true, classified purpose of the mission – to explore a moon of Saturn suspected to be the origin of the TMA-1 monolith – before he is disconnected by the sole remaining crew member, Dave.
+
+**Part 5. The Moons of Saturn.**
+
+Dave continues towards Saturn as a lone ambassador from Earth. He spots a larger version of TMA-1 on its surface, which was placed there 3,000,000 years ago by intelligent, extraterrestrial, extra-spatial life. As Dave nears Saturn’s monolith, the monolith unfolds spacetime absorbs Dave’s ship into its abyss. Dave senses he’s moving at incredible speed and believes the monolith to be some sort of "star gate" that facilitates faster-than-light travel. His pod lands in what appears to be an ordinary hotel room, prepared for someone of his species to eventually discover. He sleeps, relives his past, and is transformed into an extra-spatial omnipotent being ("Star-Child") with the power to influence matter and help guide mankind through a new stage of evolution.
 
 
 ## Atlas Shrugged
 
 Atlas Shrugged is a 1957 novel by Ayn Rand. It espouses her philosophy of Objectivism.
 
+**Characters**
+
 The primary protagonist is Dagny Taggart, a VP at the Taggart Transcontinental railroad business run by her brother James. Dagny is self-sufficient, efficient, and scourns government interference in the business. Her brother James is a dirty statist and egalitarian who welcomes government interference in the business.
 
 A secondary protagonist is James Rearden, a pessimistic entrepreneur who invents Rearden Metal, cheaper yet stronger than traditional steel. Dagny is excited by the prospects of the new alloy whereas her brother James, despite Rearden Metal’s clear superiority, is more concerned on its potential impact on the legacy steel industry.
+
+**Synopsis**
 
 Dagny learns that her old friend and lover, copper magnate Francisco d'Anconia, is intentionally sabotaging his business. She also discovers a revolutionary new motor design in an abandoned factory, with no known inventor or applied use; she can't comprehend either of these discoveries -- why Francisco is destroying his business or why an inventor would abandon the new motor design.
 
@@ -38,6 +54,8 @@ When Dagny peeks her head back out into the world, the government is even more i
 
 The Brothers Karamazov is an 1880 philosophical novel by Fyodor Dostoevsky. It tells the story of four brothers and the murder of their father.
 
+**Characters**
+
 Fyodor Pavlovich Karamazov is a selfish codger with four sons by three mothers.
 
 The eldest son, Dmitri (Mitya), is a "bad Catholic" -- or what some simply call "Catholic." Specific theologies aside, Dmitri is a sinner seeking salvation. He does bad, but seeks good. He succumbs to his basest, primal impulses, yet occasionally manages to deny them in pursuit of spiritual redemption. He is a man, flaws and all. Dmitri's central conflicts with his father involve a love triangle with a younger woman and an inheritance from his mother which he hasn’t access to.
@@ -48,36 +66,60 @@ The youngest son, Alexei (Alyosha), is the faithful one. He studies beneath Fath
 
 The rejected son, Smerdyakov (Pavel), is an epileptic bastard. He serves as Fyodor's house servant. He is the son of "Reeking Lizaveta", a mute who died in childbirth after (allegedly) getting knocked up by Fyodor. Smerdyakov tortured animals growing up. He love-hates his father and loves his brother Ivan. His actions advertently lead to Fyodor's murder and inadvertently to Ivan's mental breakdown.
 
-_Book I._ The novel starts with an introduction to the family.
+**Book I**
 
-_Books II & III._ They visit Father Zosima to help mediate the dispute over the inheritance from Dmitri's mother, but to no avail. There is a deeper conflict beneath it all -- Fyodor and Dmitri are in love with the same woman.
+The novel starts with an introduction to the family.
 
-_Book IV._ Alyosha tries to help a schoolboy who's being bullied, but ends up apologizing to the boy’s father for Dmitri's past behavior.
+**Books II & III**
 
-_Book V._ Ivan jests with Alyosha over his faith, and launches into a long poem titled The Grand Inquisitor. In the poem, Jesus returns during the Spanish inquisition, is imprisoned, and is chastised for his decision to grant free will to man, as that responsibility was too great a burden and led to human suffering. In response, Jesus kisses his prison guard and is released. Upon hearing the poem, Alyosha kisses his brother Ivan.
+They visit Father Zosima to help mediate the dispute over the inheritance from Dmitri's mother, but to no avail. There is a deeper conflict beneath it all -- Fyodor and Dmitri are in love with the same woman.
 
-_Book VI._ Father Zosima recounts his life story, and explains his belief that everyone shares responsibility for their neighbors' sins.
+**Book IV**
 
-_Book VII._ Father Zosima dies and his body decomposes, disappointing many who believe that the bodies of holy men don't decompose in death. Alyosha mourns his mentor and ventures back into the world, per Father Zosima's earlier instructions.
+Alyosha tries to help a schoolboy who's being bullied, but ends up apologizing to the boy’s father for Dmitri's past behavior.
 
-_Book VIII._ Dmitri stalks outside of his father Fyodor's house, suspecting that the woman whom they both love went to visit his father. He carries a brass pestle. Time flashes forward and Dmitri flees the property, knocking a servant out along the way. Dmitri gets drunk while covered in blood and carrying a wad of money, and is subsequently arrested for the murder of Fyodor.
+**Book V**
 
-_Book IX._ Dmitri is interrogated. He admits to striking the servant, but denies murdering his father and refuses to explain how he came into money. This is complicated by the fact that money went missing from Fyodor's house upon the murder. The only other possible suspect is Smerdyakov, but he was in an epileptic fit when the murder occurred. For lack of better explanation and Dmitri's refusal to disclose how he acquired the money, he is formally charged and imprisoned.
+ Ivan jests with Alyosha over his faith, and launches into a long poem titled The Grand Inquisitor. In the poem, Jesus returns during the Spanish inquisition, is imprisoned, and is chastised for his decision to grant free will to man, as that responsibility was too great a burden and led to human suffering. In response, Jesus kisses his prison guard and is released. Upon hearing the poem, Alyosha kisses his brother Ivan.
 
-_Book X._ A friend of the schoolboy met earlier in Book IV is growing up to be a smart-ass atheist, like Ivan. Alyosha challenges the boy's nihilism.
+**Book VI**
 
-_Book XI._ Ivan meets three times with Smerdyakov and eventually learns the Smerdyakov is the murderer. Smerdyakov admits to faking an epileptic fit and murdering their father. He offers Ivan the stolen money and explains that he never would’ve murdered the old man were it not for Ivan, for it was through Ivan whom Smerdyakov learned that all is permissible and that religious morality is herd mentality. Ivan is horrified by the impact of his words and suffers a mental breakdown. The devil visits him in hallucinations and mocks his beliefs. Smerdyakov commits suicide without confessing to anyone else, and intentionally omits his responsibility for the murder from his suicide note.
+Father Zosima recounts his life story, and explains his belief that everyone shares responsibility for their neighbors' sins.
 
-_Book XII._ A mockery of trial finds Dmitri guilty. Ivan remains tormented by guilt, and has yet to recover from his mental breakdown.
+**Book VII**
 
-_Epilogue._ Dmitri accepts his fate. There's talk of an escape plan and he reconciles with one of his former lovers who falsely accused him during the trial. But no escape is to be witnessed. Instead, Alyosha leads a funeral service for a young schoolboy recently departed. He implores the children to love deep and wide, to forgive all, and to cherish every moment and memory they have. The boys are enraptured by his speech, and end the novel cheering "Hurrah for Karamazov." In Alyosha, the Karamazov family name has been redeemed.
+Father Zosima dies and his body decomposes, disappointing many who believe that the bodies of holy men don't decompose in death. Alyosha mourns his mentor and ventures back into the world, per Father Zosima's earlier instructions.
+
+**Book VIII**
+
+Dmitri stalks outside of his father Fyodor's house, suspecting that the woman whom they both love went to visit his father. He carries a brass pestle. Time flashes forward and Dmitri flees the property, knocking a servant out along the way. Dmitri gets drunk while covered in blood and carrying a wad of money, and is subsequently arrested for the murder of Fyodor.
+
+**Book IX**
+
+Dmitri is interrogated. He admits to striking the servant, but denies murdering his father and refuses to explain how he came into money. This is complicated by the fact that money went missing from Fyodor's house upon the murder. The only other possible suspect is Smerdyakov, but he was in an epileptic fit when the murder occurred. For lack of better explanation and Dmitri's refusal to disclose how he acquired the money, he is formally charged and imprisoned.
+
+**Book X**
+
+A friend of the schoolboy met earlier in Book IV is growing up to be a smart-ass atheist, like Ivan. Alyosha challenges the boy's nihilism.
+
+**Book XI**
+
+Ivan meets three times with Smerdyakov and eventually learns the Smerdyakov is the murderer. Smerdyakov admits to faking an epileptic fit and murdering their father. He offers Ivan the stolen money and explains that he never would’ve murdered the old man were it not for Ivan, for it was through Ivan whom Smerdyakov learned that all is permissible and that religious morality is herd mentality. Ivan is horrified by the impact of his words and suffers a mental breakdown. The devil visits him in hallucinations and mocks his beliefs. Smerdyakov commits suicide without confessing to anyone else, and intentionally omits his responsibility for the murder from his suicide note.
+
+**Book XII**
+
+A mockery of trial finds Dmitri guilty. Ivan remains tormented by guilt, and has yet to recover from his mental breakdown.
+
+**Epilogue**
+
+Dmitri accepts his fate. There's talk of an escape plan and he reconciles with one of his former lovers who falsely accused him during the trial. But no escape is to be witnessed. Instead, Alyosha leads a funeral service for a young schoolboy recently departed. He implores the children to love deep and wide, to forgive all, and to cherish every moment and memory they have. The boys are enraptured by his speech, and end the novel cheering "Hurrah for Karamazov." In Alyosha, the Karamazov family name has been redeemed.
 
 
 ## Bushido: The Soul of Japan
 
 Bushido: The Soul of Japan is a 1900 book by Inazo Nitobé. It is an explanation and musing for western audiences of the character, ethics, and history of the Japanese samurai.
 
-According to author Inazo Nitobé, _Bu-shi-do_ translates to _Military-Knight-Ways_ —  the character, teachings, ethics, and chivalry of Japanese sword-warriors. The system is simple: total allegiance to master, death for dishonor, sword as last resort, and honor over all. To die for an unworthy cause is cowardice; to slay an unworthy foe is murder.
+According to author Inazo Nitobé, _Bu-shi-do_ translates to _Military-Knight-Ways_ -- the character, teachings, ethics, and chivalry of Japanese sword-warriors. The system is simple: total allegiance to master, death for dishonor, sword as last resort, and honor over all. To die for an unworthy cause is cowardice; to slay an unworthy foe is murder.
 
 For better or worse, samurai are depicted as the archetypal warrior-poet. He is stoic, steadfast, and dangerous, yet has self-control and lives in harmony with the dis/order of society. Nitobé defends old Japan from the ethical, political, and social criticism levied by the prevailing cultural hegemony (barbarism, imperialism, classism, sexism). The Japanese order is bound by a voluntary, self-imposed ethic of duty, honor, and restraint unknown to the West.
 
@@ -218,21 +260,37 @@ All are alive, and are well-esteemed in society.
 
 Latter-Day Pamphlets is an 1850 collection of essays ("pamphlets") by Thomas Carlyle. The eight essays are commentaries on political, religious, and social issues.
 
-_No. 1. The Present Time._ On the (relatively) recent history of overthrowing kings and throwning democracy.
+**No. 1. The Present Time**
 
-_No. 2. Model Prisons._ On how exemplary the prison system functions; how it's sustained at the tax payers' expense; and an argument that the "cosmic law of justice" is, underneath all, revenge.
+On the (relatively) recent history of overthrowing kings and throwning democracy.
 
-_No. 3. Downing Street._ On current public leaders being unfit for service; wasteful and incompetent bureaucracies; and that an aristocratic model is the best means to employing competent governors.
+**No. 2. Model Prisons**
 
-_No. 4. The New Downing Street._ On his model government where the most able serve; on the unlikeliness of finding these most able individuals through universal suffrage; and an alternative model of government which is basically an unelected aristocracy with elections for nominal positions only.
+On how exemplary the prison system functions; how it's sustained at the tax payers' expense; and an argument that the "cosmic law of justice" is, underneath all, revenge.
 
-_No. 5. Stump-Orator._ On the centrality of speech and language to the human experience; on society valuing slick lips over virtues; and on the ability of the ruling class to talk eloquent without really saying anything at all.
+**No. 3. Downing Street**
 
-_No. 6. Parliaments._ On legislative bodies; how they’'e become the true sovereign of nations; how they talk and talk and talk while the real debates are held in the public square and by printing press.
+On current public leaders being unfit for service; wasteful and incompetent bureaucracies; and that an aristocratic model is the best means to employing competent governors.
 
-_No. 7. Hudson's Statue._ On a proposed statue to Oliver Crowell; on how far virtue and heroes have fallen; on the public's worship of unworthy figures.
+**No. 4. The New Downing Street**
 
-_No. 8. Jesuitism._ Not included in e-Book, so this section remains unread.
+On his model government where the most able serve; on the unlikeliness of finding these most able individuals through universal suffrage; and an alternative model of government which is basically an unelected aristocracy with elections for nominal positions only.
+
+**No. 5. Stump-Orator**
+
+On the centrality of speech and language to the human experience; on society valuing slick lips over virtues; and on the ability of the ruling class to talk eloquent without really saying anything at all.
+
+**No. 6. Parliaments**
+
+On legislative bodies; how they’'e become the true sovereign of nations; how they talk and talk and talk while the real debates are held in the public square and by printing press.
+
+**No. 7. Hudson's Statue**
+
+On a proposed statue to Oliver Crowell; on how far virtue and heroes have fallen; on the public's worship of unworthy figures.
+
+**No. 8. Jesuitism**
+
+Not included in e-Book, so this section remains unread.
 
 
 ## The Most Dangerous Book
@@ -241,7 +299,7 @@ The Most Dangerous Book is a non-fiction book by Kevin Birmingham about the publ
 
 There were at least three cases concerning Ulysses in the states. The first over the Comstock Act of 1873, the second over the Tariff Act of 1930, and the third an appeal over the second.
 
-### 1921: The Little Review
+**1921: The Little Review**
 
 In 1921, The Little Review was found guilty of violating the Comstock obscenity laws for serializing Ulysses. In particular, it was due to their publication of the Nausicaa episode -- wherein it is alluded that Bloom masturbates to a woman at the beach. An attorney in New York, whose daughter received the issue unsolicited in the mail, brought the issue to the Society for the Suppression of Vice, who later filed a formal complaint.
 
@@ -249,7 +307,7 @@ Ultimately, the two publishers (Margaret Caroline Anderson and Jane Heap) were f
 
 The verdict ended the serialization of Ulysses in the states, and official publications wouldn't be made available until 1933. The effective banning of the novel, unsurprisingly, generated new interest in the work. Unofficial bootleg publications circulated, most notably by a publisher named Samuel Roth. Though Roth's publication was supposedly a protest against censorship, Joyce never received any compensation, the editions introduced typographical errors, and other authors issued a public letter against Roth for theft and corruption of the text.
 
-### 1933: United States v. One Book Called "Ulysses"
+**1933: United States v. One Book Called "Ulysses"**
 
 Random House owned the rights to publish Ulysses in the states but didn't believe they could publish it due the previous ruling against The Little Review. So, they schemed. In 1932, in order to trigger a test case (designed to set precedent), Random House imported Ulysses from France and intentionally tipped off U.S. Customs about the shipment. When Customs failed to confiscate the shipment upon its arrival, an attorney for Random House delivered the package to Customs and demanded they confiscate it. They did.
 
@@ -263,7 +321,7 @@ The Southern District of New York (SDNY) heard the case, with Random House seeki
 
 Judge Woolsey dismissed the case and declared that "Ulysses may, therefore, be admitted into the United States."
 
-### 1934: United States v. One Book Entitled Ulysses by James Joyce
+**1934: United States v. One Book Entitled Ulysses by James Joyce**
 
 The verdict was appealed to the Second Circuit and heard by three judges: Martin Manton, the awesomely named Learned Hand, and Hand's slightly less awesomely named cousin Augustus Noble Hand. The Hands upheld the prior ruling, with Manton dissenting.
 
@@ -338,41 +396,77 @@ It is notorious for its reputation as being one of the most difficult novels to 
 
 The novel is celebrated annually as Bloomsday in major cities worldwide every June 16th, but especially in Dublin, where radio performances, street readings, and tours of the novel's locations take place.
 
-_01. Telemachus._ Buck Mulligan eats breakfast with Stephen Dedalus at the Sandycove Martello tower. They walk to the shore and have a disagreement.
+**01. Telemachus**
 
-_02. Nestor._ Stephen teaches a history class and speaks with the school's headmaster. They discuss Irish history, Jews in the economy, and Stephen is given a letter to deliver to the local newspaper office.
+Buck Mulligan eats breakfast with Stephen Dedalus at the Sandycove Martello tower. They walk to the shore and have a disagreement.
 
-_03. Proteus._ Stephen daydreams at the Sandymount Strand and thinks of his mother's death.
+**02. Nestor**
 
-_04. Calypso._ Leopold Bloom eats a hearty breakfast and buys pork kidney from the butcher. He delivers the mail to his wife Molly and sees that she received a letter from Blazes Boylan, with whom Leopold knows she's having an affair.
+Stephen teaches a history class and speaks with the school's headmaster. They discuss Irish history, Jews in the economy, and Stephen is given a letter to deliver to the local newspaper office.
 
-_05. Lotus Eaters._ Stephen picks up his own love letter from the post office, but unlike Molly & Blazes, his forbidden romance isn't yet physical. He buys some soap from a local store.
+**03. Proteus**
 
-_06. Hades._ Leopold attends a funeral where Stephen's father is also in attendance. He reflects on the early death of his son and the suicide of his father.
+Stephen daydreams at the Sandymount Strand and thinks of his mother's death.
 
-_07. Aeolus._ Leopold fails to place an advertisement in the local newspaper. Stephen shows up with the headmasters letter and takes the editor to a pub.
+**04. Calypso**
 
-_08. Lestrygonians._ Leopold eats lunch at Davy Byrne's pub, thinking about how his relationship with Molly has changed over the years. Afterwards he heads to a local museum, but shirks into another building after seeing his wife's lover Blazes nearby.
+Leopold Bloom eats a hearty breakfast and buys pork kidney from the butcher. He delivers the mail to his wife Molly and sees that she received a letter from Blazes Boylan, with whom Leopold knows she's having an affair.
 
-_09. Scylla and Charybdis._ Stephen is in the National Library espousing wild theories on Shakespeare. Leopold enters the library looking for an old copy of the advertisement he failed to place in Episode 7.
+**05. Lotus Eaters**
 
-_10. Wandering Rocks._ Various characters walk about the town.
+Stephen picks up his own love letter from the post office, but unlike Molly & Blazes, his forbidden romance isn't yet physical. He buys some soap from a local store.
 
-_11. Sirens._ Leopold eats dinner with Stephen's uncle while Blazes heads out to have an affair with Leopold's his wife Molly.
+**06. Hades**
 
-_12. Cyclops._ Two unnamed characters drink in a pub. One of them berates Leopold for being Jewish.
+Leopold attends a funeral where Stephen's father is also in attendance. He reflects on the early death of his son and the suicide of his father.
 
-_13. Nausicaa._ Leopold heads to the Sandymount Strand, where he secretly masturbates to three women on the beach while fireworks shoot off.
+**07. Aeolus**
 
-_14. Oxen of the Sun._ Leopold visits a hospital to support Mina Purefoy, who is in labor. He meets Stephen, Mina bears a son, and the men head to a pub to continue drinking.
+Leopold fails to place an advertisement in the local newspaper. Stephen shows up with the headmasters letter and takes the editor to a pub.
 
-_15. Circe._ Drunk, Leopold and Stephen head to a brothel. Stephen has an outburst and breaks a chandelier, then is punched by an English soldier in the street.
+**08. Lestrygonians**
 
-_16. Eumaeus._ Leopold tries to sober Stephen up. They talk with a drunken sailor.
+Leopold eats lunch at Davy Byrne's pub, thinking about how his relationship with Molly has changed over the years. Afterwards he heads to a local museum, but shirks into another building after seeing his wife's lover Blazes nearby.
 
-_17. Ithaca._ Leopold takes Stephen to his (Leopold's) home and offers him a bed for the night, which Stephen refuses. After a quick piss outside, Stephen heads off into the night. Leopold crawls into bed and Molly wakes to ask him about his day.
+**09. Scylla and Charybdis**
 
-_18. Penelope._ Molly drifts back to sleep, thinking about her husband Leopold, her lover Blazes, and her childhood. She falls asleep remembering Leopold's proposal to her, to which she responded yes, yes, yes.
+Stephen is in the National Library espousing wild theories on Shakespeare. Leopold enters the library looking for an old copy of the advertisement he failed to place in Episode 7.
+
+**10. Wandering Rocks**
+
+Various characters walk about the town.
+
+**11. Sirens**
+
+Leopold eats dinner with Stephen's uncle while Blazes heads out to have an affair with Leopold's his wife Molly.
+
+**12. Cyclops**
+
+Two unnamed characters drink in a pub. One of them berates Leopold for being Jewish.
+
+**13. Nausicaa**
+
+Leopold heads to the Sandymount Strand, where he secretly masturbates to three women on the beach while fireworks shoot off.
+
+**14. Oxen of the Sun**
+
+Leopold visits a hospital to support Mina Purefoy, who is in labor. He meets Stephen, Mina bears a son, and the men head to a pub to continue drinking.
+
+**15. Circe**
+
+Drunk, Leopold and Stephen head to a brothel. Stephen has an outburst and breaks a chandelier, then is punched by an English soldier in the street.
+
+**16. Eumaeus**
+
+Leopold tries to sober Stephen up. They talk with a drunken sailor.
+
+**17. Ithaca**
+
+Leopold takes Stephen to his (Leopold's) home and offers him a bed for the night, which Stephen refuses. After a quick piss outside, Stephen heads off into the night. Leopold crawls into bed and Molly wakes to ask him about his day.
+
+**18. Penelope**
+
+Molly drifts back to sleep, thinking about her husband Leopold, her lover Blazes, and her childhood. She falls asleep remembering Leopold's proposal to her, to which she responded yes, yes, yes.
 
 
 ## Unlimited Memory
@@ -391,25 +485,25 @@ The main tip or trick, though, is to create strong, unique word associations and
 
 > Athens, Greece: Imagine eight hens swimming in grease... Imagine a silly picture... [Bring] information to life with your endless imagination.
 
-### Car/Body Method
+**Car/Body Method**
 
 The car method or body method can be used to memorize unordered lists. It involves placing your unique, creative visual associations onto some physical object you know well, such as your car or your body.
 
 > See your car in your mind. Imagine squeezing a big apple into the front grille. Take a carrot and stab it into the hood. On the windshield, see grainy bread, and think to yourself, "That grainy bread is going to damage my wipers..."
 
-### Rhyming Peg Method
+**Rhyming Peg Method**
 
 The rhyming pegs method can be used to memorize ordered lists. Associate the numbers one through ten with rhyming nouns -- come up with these for yourself so the association is stronger, e.g. gun or nun for one, shoe or tattoo for two. Then "peg" an item to that numeric association.
 
 > [Item Ten (hen): Contribution:] Imagine a hen giving you presents. She is a "contributing hen." Ten is therefore contribution.
 
-### Spaces in Places Method
+**Spaces in Places Method**
 
 The spaces in places method is the mind palace technique of linking visual associations with familiar spatial environments. This method dates back to the turn of the first millennium and is the most famous memorization technique. Ancient texts that discuss the method (e.g. Rhetorica ad Herennium) recommend adding visual, auditory, and other sensory details to strengthen the associations.
 
 The core idea is that you use a room, a house, a particular drive, some physical space that you know well and associate the items to memorize with different objects or landmarks in this space. To recall the items, you simply walk through the space and activate the desired items into memory.
 
-### Linking Thought Method
+**Linking Thought Method**
 
 The linking thoughts method is one in which you build a story out of your associations. Items to memorize are therefore linked together through some narrative. The example used by Horsley in the book involves U.S. presidents -- while you're washing a tin, it grows an Adam's apple. A chef and her son walk by and rip it out to make some medicine to give to Marilyn Monroe...
 

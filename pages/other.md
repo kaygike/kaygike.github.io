@@ -1,6 +1,8 @@
-# Bookmarks
+# Other
 
-## 'awesome' lists
+## Bookmarks
+
+### 'awesome' lists
 
 * [cli](https://github.com/agarrharr/awesome-cli-apps)
 * [datahoarding](https://github.com/simon987/awesome-datahoarding)
@@ -9,13 +11,13 @@
 * [tui](https://github.com/rothgar/awesome-tuis)
 
 
-## Literature
+### Literature
 
 * [anna's archive](https://annas-archive.org)
 * [libgen](https://libgen.is)
 
 
-## Magnets
+### Magnets
 
 * [bitsearch](https://bitsearch.to)
 * [bt4g](https://bt4gprx.com)
