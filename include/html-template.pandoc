@@ -24,7 +24,7 @@ $for(header-includes)$
 $endfor$
 </head>
 
-<body>
+<body class="$pagetitle$">
   <header>
     <nav id="nav">
       <a href="index.html" id="home">☩</a>
@@ -34,19 +34,23 @@ $endfor$
       <a href="other.html">Other</a>
       <a href="quotes.html">Quotes</a>
       <a href="text.html">Text</a>
+      <a href="#bottom">(Bottom)</a>
     </nav>
   </header>
 <content>
-$if(title)$
-<h1 class="title $pagetitle$">$pagetitle$</h1>
-$endif$
-$if(toc)$
-<nav id="$idprefix$TOC" role="doc-toc">
-$table-of-contents$
-</nav>
-$endif$
-$body$
+  $if(toc)$
+    <nav id="$idprefix$TOC" role="doc-toc">
+      $table-of-contents$
+    </nav>
+  $endif$
+  $body$
 </content>
-<footer>(c) Copyright [current year].</footer>
+<footer>
+  <p>
+    <span id="copyright">(c) Copyright 1999-$year$ VLNT.</span>
+    <span id="build">Last build $build$.</span>
+  </p>
+  <a name="bottom"></a>
+</footer>
 </body>
 </html>
