@@ -1,25 +1,22 @@
 #!/bin/bash
 #
-# Concatenate *.md files in pages/ then build index.html with
-# - table of contents
-# - code syntax highlighting
-# - header.html prefix and footer.html suffix
-# - custom stylesheet
+# Convert pages/*.md to /*.html using custom stylesheet & template
 
+# List of filenames (without extension)
 declare -a arr=("index" "books" "code" "other" "quotes" "text")
 
 for i in "${arr[@]}"
 do
+    echo "Generating $i.html"
     pandoc \
     --from=markdown \
     --to=html \
     --output=$i.html \
     --toc=true \
     --highlight-style=kate \
-    --include-in-header=include/header.html \
-    --include-after-body=include/footer.html \
     --css=include/style.css \
+    --template=include/html-template.pandoc \
     --metadata \
-    title="$i @ kaygike" \
+    title="$i" \
     pages/$i.md
 done
