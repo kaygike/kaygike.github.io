@@ -9,7 +9,7 @@
 
     --border: 1px solid #333;
     --font-family: monospace;
-    --font-size: 10pt;
+    --font-size: 12pt;
     --gap: 2ch;
     --width: 80ch;
 }
@@ -17,15 +17,16 @@
 html {
     background: var(--light);
     font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: calc(var(--font-size) * 1.5);
     scroll-padding-top: 12ch;
 }
 body {
     background: var(--bg);
     display: block;
-    font-size: var(--font-size);
     margin: 0 auto;
     max-width: var(--width);
-    padding: 6px;
+    padding: calc(var(--gap) / 2);
 }
 content, header, footer {
     box-sizing: border-box;
@@ -50,12 +51,13 @@ footer {
     border-top: var(--border);
     border-padding: var(--gap);
     padding: var(--gap);
+    margin-top: calc(var(--gap) * 8);
     text-align: center;
     width: 100%;
 }
 content {
     display: block;
-    margin-top: 10ch;
+    margin-top: 7ch;
     width: 100%;
 }
 #home {
@@ -63,54 +65,27 @@ content {
     font-weight: bold;
     margin: 0ch 1ch 1ch 0ch;
 }
-content > header#title-block-header {
-    display: none;
-}
+content > header#title-block-header { display: none; }
 nav#nav {
     display: inline-block;
     margin-left: 1ch;
 }
-nav#nav a {
-    margin-right: 1ch;
-}
+nav#nav a { margin-right: 1ch; }
 
-/* headers */
-/* h1 is inserted via html-template.pandoc file */
-h1 {
-    border-bottom: var(--border);
-    padding-bottom: 1ch;
-    text-transform: capitalize;
-}
-/* hide first instance of h1 (title) in markdown file, per above */
-h1:nth-of-type(2) {
-    display: none;
-}
-/* hide 'index' h1 on home page */
-h1[class="title index"] {
-    display: none;
-}
 
-h2 {
-    margin-top: 5ch;
-}
-h3 {
-    margin-top: 40px;
-}
+/****************************************************************************/
+/* Headers */
+/****************************************************************************/
+/* Hide first <h1> element (page title is already provided via TOC) */
+h1:nth-of-type(1) { display: none; }
+/* Hide title on homepage */
+h1[class="title index"] { display: none; }
+h2, h3, h4, h5, h6 { margin-top: 100px; }
+h1 ~ h2, h2 ~ h3, h3 ~ h4, h4 ~ h5, h5 ~ h6 { margin-top: 60px; }
 
-h1 ~ *:not(h1) {
-  margin-left: 0em;
-}
-h2 ~ *:not(h1):not(h2) {
-  margin-left: 0ch;
-}
-h3 ~ *:not(h1):not(h2):not(h3) {
-  margin-left: 2ch;
-}
-h4 ~ *:not(h1):not(h2):not(h3):not(h4) {
-  margin-left: 4ch;
-}
-
-/* ```code``` */
+/****************************************************************************/
+/* Code blocks */
+/****************************************************************************/
 p code, li code {
     background: var(--white);
     color: var(--dark);
@@ -120,64 +95,63 @@ div.sourceCode {
     margin: unset;
     padding: 1ch;
 }
-pre.sourceCode {
-    overflow-x: scroll;
-}
+pre.sourceCode { overflow-x: scroll; }
 pre > code.sourceCode {
     box-decoration-break: clone
     position: unset;
 }
 
-/* > blockquotes */
+
+/****************************************************************************/
+/* Table of Contents */
+/****************************************************************************/
+#TOC {
+    border-bottom: var(--border);
+    margin-bottom: 60px;
+} 
+#TOC > ul, #TOC > ul > li > ul { 
+    line-height: calc(var(--font-size) * 2);
+    padding-left: 0; 
+}
+#TOC li { list-style-type: none; }
+#TOC > ul > li > a[id^="toc-"] {
+    color: var(--dark);
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+
+/****************************************************************************/
+/* Custom divs / alerts */
+/****************************************************************************/
+.Warning {
+    background: #fec;
+    border: var(--border);
+    display: inline-block;
+    font-weight: bold;
+    padding: 1ch;
+}
+.Warning p::before {
+  content: "⚠\A";
+  font-size: 32pt;
+  display: block;
+  text-align: center;
+  padding-bottom: 0.5ch;
+}
+
+/****************************************************************************/
+/* Basic elements */
+/****************************************************************************/
+a { color: var(--primary); }
 blockquote { 
     border-left: var(--border);
     padding-left: 1ch;
     margin-bottom: 3ch;
 }
+li { list-style-type: square; }
 
-/* * lists */
-content nav {
-    border-bottom: var(--border);
-    font-size: 10pt;
-    margin-top: 0px;
-    margin-bottom: 5ch;
-}
-content nav > ul {
-    column-count: 2;
-    padding-left: 0;
-}
-content nav ul {
-    padding-left: 0;
-}
-content nav > ul > li {
-    font-weight: bold;
-    font-size: var(--font-size);
-    list-style-type: none;
-}
-content nav > ul > li > a {
-    display: none;
-}
-content nav > ul > li > ul {
-    display: block;
-    font-size: var(--font-size);
-    margin-left: 0ch;
-    text-align: left;
-}
-content nav > ul ul ul {
-    display: none;
-    margin-left: 2ch;
-}
-content nav ul > li li {
-    display: list-item;
-    font-weight: normal;
-    margin-left: 2ch;
-    padding: 0.5ch 0;
-}
-li {
-    list-style-type: square;
-}
 
-/* [links] */
-a {
-    color: var(--primary);
-}
