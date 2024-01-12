@@ -35,8 +35,10 @@ content, header, footer {
     font-size: var(--font-size);
 }
 header {
-    background: var(--bg);
+    background: var(--dark);
     border-bottom: var(--border);
+    left: 0;
+    max-height: 80px;
     max-width: var(--width);
     padding-bottom: var(--gap);
     padding-top: 1ch;
@@ -45,6 +47,9 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
+}
+header a {
+    color: var(--light);
 }
 footer {
     background: var(--bg);
@@ -57,7 +62,7 @@ footer {
 }
 content {
     display: block;
-    margin-top: 7ch;
+    margin-top: 100px;
     width: 100%;
 }
 #home {
@@ -68,9 +73,18 @@ content {
 content > header#title-block-header { display: none; }
 nav#nav {
     display: inline-block;
-    margin-left: 1ch;
+    text-align: center;
+    width: 100%;
 }
-nav#nav a { margin-right: 1ch; }
+nav#nav a { 
+    color: var(--light);
+    font-size: 10pt;
+    margin-right: 1ch;
+    text-decoration: none;
+}
+nav#nav a:last-of-type { margin-right: 0; }
+nav#nav a[href="#"], nav#nav a[href="#bottom"] { font-size: 16pt; }
+nav#nav a[href="index.html"] { font-size: 24pt; }
 
 
 /****************************************************************************/

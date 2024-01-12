@@ -27,14 +27,14 @@ $endfor$
 <body class="$pagetitle$">
   <header>
     <nav id="nav">
-      <a href="index.html" id="home">☩</a>
-      <a href="#">(Top)</a>
+      <a href="index.html" id="home">☩</a><br/>
+      <a href="#">⇑</a>
       <a href="books.html">Books</a>
       <a href="code.html">Code</a>
       <a href="other.html">Other</a>
       <a href="quotes.html">Quotes</a>
       <a href="text.html">Text</a>
-      <a href="#bottom">(Bottom)</a>
+      <a href="#bottom">⇓</a>
     </nav>
   </header>
 <content>
