@@ -4,7 +4,7 @@
 
 Below are five (5) core tenets for using Excel or other spreadsheet software, in no particular order:
 
-### Comprehensibility
+**Comprehensibility**
 
 > The quicker your workbook can be comprehended by others, the better.
 
@@ -22,7 +22,7 @@ Fonts should have monospace numbers so periods and commas align within each colu
       25.50%     
 ```
 
-### Compatability
+**Compatability**
 
 > Models should function regardless of software settings – or specify the needs
 
@@ -34,7 +34,7 @@ The Iterative Calculation setting can usually resolve these circular references,
 
 Given these constraints, the creator needs to either clearly specify the software setting required for the model to function, or convince the other user to run the (unaudited) macro.
 
-### Internal Consistency
+**Internal Consistency**
 
 > Do similar things the same way.
 
@@ -50,7 +50,7 @@ For legibility, perform similar actions using the same method or styling each ti
 5| =A4 + 1    5| =sqrt(25)
 ```
 
-### Function over Form
+**Function over Form**
 
 > Emphasize accuracy over beauty.
 
@@ -64,7 +64,7 @@ It’s always better to have an ugly working model than a beautiful broken model
 
 * Red text indicates a cell reference in a different workbook. It pulls data from another file, indicating dependency on another workbook.
 
-### Separate Input from Output
+**Separate Input from Output**
 
 > Clearly distinguish which cells drive the model.
 
