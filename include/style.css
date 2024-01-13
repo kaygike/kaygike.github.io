@@ -16,7 +16,7 @@
 
 html {
     background: var(--light);
-    font-family: var(--font-family);
+/*    font-family: var(--font-family); */
     font-size: var(--font-size);
     line-height: calc(var(--font-size) * 1.5);
     scroll-padding-top: 12ch;
@@ -34,23 +34,106 @@ content, header, footer {
     -webkit-box-sizing: border-box;
     font-size: var(--font-size);
 }
+
+
+/****************************************************************************/
+/* Header & Navigation */
+/****************************************************************************/
 header {
     background: var(--dark);
-    border-bottom: var(--border);
     left: 0;
-    max-height: 80px;
-    max-width: var(--width);
-    padding-bottom: var(--gap);
-    padding-top: 1ch;
+    max-height: 100px;
+    padding: 0 1ch;
     position: fixed;
     text-align: left;
     top: 0;
     width: 100%;
     z-index: 1;
 }
-header a {
-    color: var(--light);
+/* Navigation */
+header nav#mobile_menu { display: none; }
+header nav {
+    margin: 0 auto;
+    text-align: left;
+    width: var(--width);
 }
+header nav span.text {
+    margin: 10px;
+    margin-bottom: 0;
+}
+header nav span.icons {
+    display: block;
+    padding: 5px 10px;
+}
+header nav a { 
+    color: var(--light);
+    padding: 10px;
+    padding-bottom: 10px;
+}
+header nav span.text a { 
+    display: inline-block;
+    font-size: 10pt;
+}
+header nav a:hover, 
+header nav a:active,
+header nav a:focus,
+header nav span.text a:target {
+    background: var(--light);
+    color: var(--dark);
+}
+header nav a:last-of-type { margin-right: 0; }
+header nav a[href="#"],
+header nav a[href="#bottom"] { 
+    float: right;
+    font-size: 18pt;
+}
+header nav a[href="index.html#home"] { 
+    font-size: 18pt;
+    font-weight: bold;
+}
+header nav input#burger { display: none; }
+
+/* Mobile navigation */
+@media (max-width: 100ch) {
+    header {
+        padding: 5px 10px;
+    }
+    header nav#mobile_menu a { padding: 0 10px; }
+    header nav#menu { display: none; }
+    header nav#mobile_menu { 
+        display: block;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    header nav#mobile_menu span.text { display: none; padding-top: 10px;}
+    header nav#mobile_menu a { text-decoration: none; }
+    header nav#mobile_menu label[for="burger"] { 
+        color: var(--light);
+        font-size: 18pt;
+    }
+    header nav#mobile_menu span.home {
+        display: inline-block;
+        float: left;
+        text-align: left;
+    }
+    header nav#mobile_menu span.arrows {
+        display: inline-block;
+        text-align: center;
+    }
+    header nav#mobile_menu label[for="burger"] {
+        cursor: pointer; 
+        float: right;
+    }
+    header nav#mobile_menu input#burger:checked ~ span.text,
+    header nav#mobile_menu input#burger + label:hover ~ span.text {
+        display: block;
+    }
+    
+}
+
+/****************************************************************************/
+/* Footer */
+/****************************************************************************/
 footer {
     background: var(--bg);
     border-top: var(--border);
@@ -60,35 +143,21 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+/****************************************************************************/
+/* Main content */
+/****************************************************************************/
+
 content {
     display: block;
-    margin-top: 100px;
+    margin-top: 120px;
     width: 100%;
-}
-#home {
-    font-size: 24pt;
-    font-weight: bold;
-    margin: 0ch 1ch 1ch 0ch;
 }
 content > header#title-block-header { display: none; }
-nav#nav {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-nav#nav a { 
-    color: var(--light);
-    font-size: 10pt;
-    margin-right: 1ch;
-    text-decoration: none;
-}
-nav#nav a:last-of-type { margin-right: 0; }
-nav#nav a[href="#"], nav#nav a[href="#bottom"] { font-size: 16pt; }
-nav#nav a[href="index.html"] { font-size: 24pt; }
 
 
 /****************************************************************************/
-/* Headers */
+/* Text headings */
 /****************************************************************************/
 /* Hide first <h1> element (page title is already provided via TOC) */
 h1:nth-of-type(1) { display: none; }
