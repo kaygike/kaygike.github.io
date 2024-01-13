@@ -35,15 +35,35 @@
 
 <body class="text">
   <header>
-    <nav id="nav">
-      <a href="index.html" id="home">☩</a><br/>
+    <nav class="menu" id="menu">
+      <a id="home" href="index.html#home">☩</a>
+      <span class="text">
+        <a id="books" href="books.html#books">Books</a>
+        <a id="code" href="code.html#code">Code</a>
+        <a id="other" href="other.html#other">Other</a>
+        <a id="quotes"href="quotes.html#quotes">Quotes</a>
+        <a id="text" href="text.html#text">Text</a>
+      </span>
       <a href="#">⇑</a>
-      <a href="books.html">Books</a>
-      <a href="code.html">Code</a>
-      <a href="other.html">Other</a>
-      <a href="quotes.html">Quotes</a>
-      <a href="text.html">Text</a>
       <a href="#bottom">⇓</a>
+    </nav>
+    <nav class="menu" id="mobile_menu">
+      <span class="home">
+        <a id="home" href="index.html#home">☩</a>
+      </span>
+      <span class="arrows">
+        <a href="#">⇑</a>
+        <a href="#bottom">⇓</a>
+      </span>
+      <input type="checkbox" id="burger">
+      <label for="burger">☰</label>
+      <span class="text">
+        <a id="books" href="books.html#books">Books</a>
+        <a id="code" href="code.html#code">Code</a>
+        <a id="other" href="other.html#other">Other</a>
+        <a id="quotes"href="quotes.html#quotes">Quotes</a>
+        <a id="text" href="text.html#text">Text</a>
+      </span>
     </nav>
   </header>
 <content>
@@ -52,20 +72,7 @@
       <li><a href="#text" id="toc-text">Text</a>
       <ul>
       <li><a href="#excel-best-practices"
-      id="toc-excel-best-practices">Excel best practices</a>
-      <ul>
-      <li><a href="#comprehensibility"
-      id="toc-comprehensibility">Comprehensibility</a></li>
-      <li><a href="#compatability"
-      id="toc-compatability">Compatability</a></li>
-      <li><a href="#internal-consistency"
-      id="toc-internal-consistency">Internal Consistency</a></li>
-      <li><a href="#function-over-form"
-      id="toc-function-over-form">Function over Form</a></li>
-      <li><a href="#separate-input-from-output"
-      id="toc-separate-input-from-output">Separate Input from
-      Output</a></li>
-      </ul></li>
+      id="toc-excel-best-practices">Excel best practices</a></li>
       <li><a href="#vocabulary" id="toc-vocabulary">Vocabulary</a></li>
       </ul></li>
       </ul>
@@ -74,7 +81,7 @@
     <h2 id="excel-best-practices">Excel best practices</h2>
     <p>Below are five (5) core tenets for using Excel or other
     spreadsheet software, in no particular order:</p>
-    <h3 id="comprehensibility">Comprehensibility</h3>
+    <p><strong>Comprehensibility</strong></p>
     <blockquote>
     <p>The quicker your workbook can be comprehended by others, the
     better.</p>
@@ -101,7 +108,7 @@
     (300.00)
    5,700.50
       25.50%     </code></pre>
-    <h3 id="compatability">Compatability</h3>
+    <p><strong>Compatability</strong></p>
     <blockquote>
     <p>Models should function regardless of software settings – or
     specify the needs</p>
@@ -128,7 +135,7 @@
     <p>Given these constraints, the creator needs to either clearly
     specify the software setting required for the model to function, or
     convince the other user to run the (unaudited) macro.</p>
-    <h3 id="internal-consistency">Internal Consistency</h3>
+    <p><strong>Internal Consistency</strong></p>
     <blockquote>
     <p>Do similar things the same way.</p>
     </blockquote>
@@ -141,7 +148,7 @@
 3| =A2 + 1    3| =A2 * 1.5
 4| =A3 + 1    4| =2 + 2
 5| =A4 + 1    5| =sqrt(25)</code></pre>
-    <h3 id="function-over-form">Function over Form</h3>
+    <p><strong>Function over Form</strong></p>
     <blockquote>
     <p>Emphasize accuracy over beauty.</p>
     </blockquote>
@@ -161,7 +168,7 @@
     It pulls data from another file, indicating dependency on another
     workbook.</p></li>
     </ul>
-    <h3 id="separate-input-from-output">Separate Input from Output</h3>
+    <p><strong>Separate Input from Output</strong></p>
     <blockquote>
     <p>Clearly distinguish which cells drive the model.</p>
     </blockquote>
@@ -216,7 +223,7 @@
 <footer>
   <p>
     <span id="copyright">(c) Copyright 1999-2024 VLNT.</span>
-    <span id="build">Last build 2024-01-11.</span>
+    <span id="build">Last build 2024-01-12.</span>
   </p>
   <a name="bottom"></a>
 </footer>

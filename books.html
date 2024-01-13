@@ -35,15 +35,35 @@
 
 <body class="books">
   <header>
-    <nav id="nav">
-      <a href="index.html" id="home">☩</a><br/>
+    <nav class="menu" id="menu">
+      <a id="home" href="index.html#home">☩</a>
+      <span class="text">
+        <a id="books" href="books.html#books">Books</a>
+        <a id="code" href="code.html#code">Code</a>
+        <a id="other" href="other.html#other">Other</a>
+        <a id="quotes"href="quotes.html#quotes">Quotes</a>
+        <a id="text" href="text.html#text">Text</a>
+      </span>
       <a href="#">⇑</a>
-      <a href="books.html">Books</a>
-      <a href="code.html">Code</a>
-      <a href="other.html">Other</a>
-      <a href="quotes.html">Quotes</a>
-      <a href="text.html">Text</a>
       <a href="#bottom">⇓</a>
+    </nav>
+    <nav class="menu" id="mobile_menu">
+      <span class="home">
+        <a id="home" href="index.html#home">☩</a>
+      </span>
+      <span class="arrows">
+        <a href="#">⇑</a>
+        <a href="#bottom">⇓</a>
+      </span>
+      <input type="checkbox" id="burger">
+      <label for="burger">☰</label>
+      <span class="text">
+        <a id="books" href="books.html#books">Books</a>
+        <a id="code" href="code.html#code">Code</a>
+        <a id="other" href="other.html#other">Other</a>
+        <a id="quotes"href="quotes.html#quotes">Quotes</a>
+        <a id="text" href="text.html#text">Text</a>
+      </span>
     </nav>
   </header>
 <content>
@@ -1044,7 +1064,7 @@
 <footer>
   <p>
     <span id="copyright">(c) Copyright 1999-2024 VLNT.</span>
-    <span id="build">Last build 2024-01-11.</span>
+    <span id="build">Last build 2024-01-12.</span>
   </p>
   <a name="bottom"></a>
 </footer>
