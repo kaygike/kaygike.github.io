@@ -31,7 +31,15 @@ header a[href="#"] {
 header a[href="#bottom"] {
     margin-right: 16px;
 }
-
+header a {
+    border: 1px solid #111;
+    padding: 5px 5px 0;
+}
+header li:nth-of-type(1) a,
+header li:nth-of-type(2) a,
+header li:nth-of-type(3) a {
+    border: none;
+}
 
 content {
     display: block;
@@ -74,4 +82,14 @@ a {
     background: #ed2;
     content: "Note:";
     margin-right: 1ch;
+}
+
+div.sourceCode {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+/* Footer */
+footer {
+    margin: 100px 0 40px;
 }
