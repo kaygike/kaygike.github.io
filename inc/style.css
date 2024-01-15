@@ -16,10 +16,9 @@
 
 html {
     background: var(--light);
-/*    font-family: var(--font-family); */
     font-size: var(--font-size);
     line-height: calc(var(--font-size) * 1.5);
-    scroll-padding-top: 12ch;
+    scroll-padding-top: 20px;
 }
 body {
     background: var(--bg);
@@ -42,138 +41,24 @@ content, header, footer {
 header {
     background: var(--light);
     border-bottom: var(--border);
-    height: 44px;
-    left: 0;
-    max-height: 100px;
     padding: 0 1ch;
-    position: fixed;
-    text-align: left;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-/* Navigation */
-#menu {
-    height: 32px;
-    margin: 0 auto;
-    /* padding-top: 10px; */
     text-align: left;
     width: var(--width);
 }
-#menu a { 
-    color: var(--dark);
+
+#nav ul {
+    padding-left: 0;
+}
+
+#nav li {
     display: inline-block;
-    padding: 10px;
-    padding-bottom: 10px;
-}
-#menu a:hover, 
-#menu a:active,
-#menu a:focus,
-#menu span.text a:target {
-    background: var(--primary);
-    color: var(--light);
-}
-#menu a:last-of-type { margin-right: 0; }
-#menu label[for="burger"], #menu input#burger { display: none; }
-#menu span.text {
-    height: 32px;
-    padding-top: 10px;
-}
-
-/* Mobile navigation */
-@media (max-width: 100ch) {
-    header {
-        padding: 0;
-    }
-    #menu { 
-        display: flex;
-        padding-bottom: 10px;
-        width: 100%;
-    }
-    #menu span.text { display: none; padding-top: 10px;}
-    #menu a { 
-        display: inline;
-        height: 24px;
-        padding: 5px 10px;
-        text-decoration: underline;
-        width: 24px;
-    }
-    #menu label[for="burger"] { 
-        color: var(--dark);
-        cursor: pointer; 
-        font-size: 32px;
-    }
-    #menu span.home {
-        display: inline-block;
-        float: left;
-        text-align: left;
-    }
-    #menu span.arrows {
-        display: inline-block;
-        text-align: center;
-    }
-    #menu input#burger:checked ~ span.text,
-    #menu input#burger + label:hover ~ span.text {
-        background: var(--light);
-        border-bottom: var(--border);
-        display: block;
-        left: 0;
-        position: fixed;
-        text-align: center;
-        top: 48px;
-        width: 100%;
-        z-index: 2;
-    }    
-    /* Icons - logo */
-    #menu a#home {
-        display: inline-block;
-        text-align: left;
-        width: 25%;
-    }
-    #menu a#home img {
-        height: 24px;
-        width: 24px;
-    }
-    /* Icons - arrow up */
-    #menu a[href="#"] {
-        display: inline-block;
-        text-align: right;
-        width: 25%;
-    }
-    #menu a[href="#"] img {
-        height: 20px;
-        vertical-align: 2px;
-        width: 20px;
-    }
-    /* Icons - arrow down */
-    #menu a[href="#bottom"] {
-        display: inline-block;
-        text-align: left;
-        width: 25%;
-    }
-    #menu a[href="#bottom"] img {
-        height: 20px;
-        vertical-align: 2px;
-        width: 20px;
-    }
-    /* Icons - burgers */
-    #menu label[for="burger"] {
-        display: inline-block;
-        padding: 5px 10px;
-        text-align: right;
-        width: 25%;
-    }
-    #menu label[for="burger"] img {
-        height: 24px;
-        width: 24px;
-    }
-
 }
 
 /* Icons */
-#menu img {
+#nav img {
+    height: 32px;
     image-rendering: pixelated;
-    /* filter: invert(1); */
+    width: 32px;
 }
 
 /****************************************************************************/
@@ -195,7 +80,6 @@ footer {
 
 content {
     display: block;
-    margin-top: 80px;
     width: 100%;
 }
 content > header#title-block-header { display: none; }
