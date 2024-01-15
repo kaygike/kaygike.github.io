@@ -1,66 +1,44 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js">
 <head>
-
-  $-- Meta
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Words and code." />
-
-  $-- Title & Style Partials
   <title>VLNT: $pagetitle$</title>
   <style>
     $styles.html()$
   </style>
-
   $for(css)$
     <link rel="stylesheet" href="$css$" />
   $endfor$
-
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☩</text></svg>">
-
-  $-- CSS overrides
   $for(header-includes)$
     $header-includes$
   $endfor$
 </head>
-
 <body class="$pagetitle$">
   <header>
-    <nav class="nav" id="nav">
-      <div class="wrapper">
-        <ul>
-          <li><a href="index.html"><img src="inc/home.png"/></a></li>
-          <li><a href="#"><img src="inc/up.png"/></a></li>
-          <li><a href="#bottom"><img src="inc/down.png"/></a></li>
-          <li><a href="books.html"><img src="inc/books.png"/></a></li>
-          <li><a href="code.html"><img src="inc/code.png"/></a></li>
-          <li><a href="other.html"><img src="inc/other.png"/></a></li>
-          <li><a href="quotes.html"><img src="inc/quotes.png"/></a></li>
-          <li><a href="text.html"><img src="inc/text.png"/></a></li>
-          $--<li><a href="books.html">Books</a></li>
-          $--<li><a href="code.html">Code</a></li>
-          $--<li><a href="other.html">Other</a></li>
-          $--<li><a href="quotes.html">Quotes</a></li>
-          $--<li><a href="text.html">Text</a></li>
-        </ul>
-      </div>
-    </nav>
+    <ul>
+      <li><a href="index.html"><img src="inc/home.png"/></a></li>
+      <li><a href="#"><img src="inc/up.png"/></a></li>
+      <li><a href="#bottom"><img src="inc/down.png"/></a></li>
+      <li><a href="books.html"><img src="inc/books.png"/></a></li>
+      <li><a href="code.html"><img src="inc/code.png"/></a></li>
+      <li><a href="other.html"><img src="inc/other.png"/></a></li>
+      <li><a href="quotes.html"><img src="inc/quotes.png"/></a></li>
+      <li><a href="text.html"><img src="inc/text.png"/></a></li>
+    </ul>
   </header>
 <content>
   $if(toc)$
-    <nav id="$idprefix$TOC" role="doc-toc">
-      $table-of-contents$
-    </nav>
+    <nav id="$idprefix$TOC" role="doc-toc">$table-of-contents$</nav>
   $endif$
   $body$
 </content>
 <footer>
-  <p>
-    <span id="copyright">(c) Copyright 1999-$year$ VLNT.</span>
-    <span id="build">Last build $build$.</span>
-  </p>
+  <p>(c) Copyright 1999-$year$ VLNT.</p>
+  <p>Last build $build$.</p>
   <a name="bottom"></a>
 </footer>
 </body>
