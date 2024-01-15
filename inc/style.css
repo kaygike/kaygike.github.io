@@ -9,6 +9,7 @@ header {
     background: #fff;
     border-bottom: 1px solid #777;
     max-height: 50px;
+    max-width: 100%;
     position: fixed;
     top: 0;
     width: 80ch;
@@ -25,12 +26,18 @@ header ul {
 header li {
     display: inline-block;
 }
-header a[href="#"] {
-    margin-left: 16px;
+
+/* Nav - Float arrows to right side */
+header li:nth-of-type(2) {
+    float: right;
+    padding-right: 10px
 }
-header a[href="#bottom"] {
-    margin-right: 16px;
+header li:nth-of-type(3) {
+    float: right;
+    padding-left: 10px
 }
+
+/* Nav - Draw boxes around page links */
 header a {
     border: 1px solid #111;
     padding: 5px 5px 0;
@@ -41,6 +48,24 @@ header li:nth-of-type(3) a {
     border: none;
 }
 
+/* Nav - Emphasize current page */
+body.books header a[href="books.html"] img,
+body.code header a[href="code.html"] img,
+body.other header a[href="other.html"] img,
+body.quotes header a[href="quotes.html"] img,
+body.text header a[href="text.html"] img {
+    filter: invert(1);
+}
+body.books header a[href="books.html"],
+body.code header a[href="code.html"],
+body.other header a[href="other.html"],
+body.quotes header a[href="quotes.html"],
+body.text header a[href="text.html"] {
+    background: #000;
+}
+
+
+/* Content */
 content {
     display: block;
     margin-top: 70px;
@@ -74,16 +99,15 @@ h1 {
     display: unset;
 }
 
+/* Other */
 a {
     color: #b22;
 }
-
 .Warning p::before {
     background: #ed2;
     content: "Note:";
     margin-right: 1ch;
 }
-
 div.sourceCode {
     border-left: 1px solid #ccc;
     padding-left: 10px;
