@@ -20,14 +20,14 @@
 <body class="$pagetitle$">
   <header>
     <ul>
-      <li><a href="index.html"><img src="inc/home.png"/></a></li>
-      <li><a href="#"><img src="inc/up.png"/></a></li>
-      <li><a href="#bottom"><img src="inc/down.png"/></a></li>
-      <li><a href="books.html"><img src="inc/books.png"/></a></li>
-      <li><a href="code.html"><img src="inc/code.png"/></a></li>
-      <li><a href="other.html"><img src="inc/other.png"/></a></li>
-      <li><a href="quotes.html"><img src="inc/quotes.png"/></a></li>
-      <li><a href="text.html"><img src="inc/text.png"/></a></li>
+      <li><a href="index.html"><img src="img/home.png"/></a></li>
+      <li><a href="#"><img src="img/up.png"/></a></li>
+      <li><a href="#bottom"><img src="img/down.png"/></a></li>
+      <li><a href="books.html"><img src="img/books.png"/></a></li>
+      <li><a href="code.html"><img src="img/code.png"/></a></li>
+      <li><a href="other.html"><img src="img/other.png"/></a></li>
+      <li><a href="quotes.html"><img src="img/quotes.png"/></a></li>
+      <li><a href="text.html"><img src="img/text.png"/></a></li>
     </ul>
   </header>
 <content>
