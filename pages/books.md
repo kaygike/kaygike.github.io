@@ -173,6 +173,67 @@ Soon thereafter, Petrovich surprises Raskolnikov for a quick chat, and tells him
 Raskolnikov says goodbye to his mother and sister, receives a crucifix from Sonya, and heads to the police station. There he learns of Svidrigailov's suicide and makes a full confession. He is sentenced to eight years of labor in Siberia, during which his mother passes. Sonya follows him to Siberia, and despite feeling unworthy of her love, he accepts his sins and seeks redemption in Sonya's loving presence.
 
 
+## Democracy: The God that Failed
+
+Democracy: The God That Failed is a 2001 book by Hans-Hermann Hoppe. It is a critique of democracy and a defense of private property rights.
+
+Below is a summary of the introduction and first chapter, which outline his thesis and key concepts.
+
+**Introduction**
+
+Democracy is a relatively young phenomenon. Before the Great War (WWI), only three republics existed in Europe (France, Switzerland, Portugal). But Woodrow Wilson, in his declaration of war against Germany, specifically said that "The world must be made safe for democracy." Thus Total War ensued, and Total War requires total surrender. Germany lost its monarchy; the Austrian-Hungarian Empire was abolished; Czechoslovakia and Yugoslavia were carved out. Without the ideological push for democracy behind WWI, one must wonder how difficult and likely it would have been for the Bolsheviks to seize Russia, the Fascists to seize Italy, and the Nazis to seize Germany if the monarchies were preserved. (ix-xiv)
+
+The collapse of the Soviet Empire demonstrated the failure of socialism, not the triumph of capitalism -- for, in less than a century, "full blown democracy" has led to moral degeneration, family and social disintegration, and cultural decay in the forms of divorce, illegitimacy, abortion, and crime. (xiii)
+
+The Austrian method of praxeology is logical deduction from _a priori_ theory. If the deduction is valid and the _a priori_ statement is true, then the deduction is necessarily true and by definition no empirical evidence can falsify it. Historical data or empirical evidence can illustrate these deductions, but not establish or refute them. Examples of these _a priori_ statements are "satisfaction earlier is preferred to satisfaction later," and "no one can purposefully not act." (xvi-xviii)
+
+Three theses are provided:
+
+1. Hereditary monarchies can be understood as privately-owned government. With the claim to authority being hereditary, these institutions tend to promote future-orientedness and protection of private property rights;
+2. Democracies can be understood as publicly-owned governments. With the constant transition of power and influence of majority (mob) rule, these institutions tend to promote present-orientedness and dissolution of private property rights;
+3. _If_ one must have a state (a compulsory territorial monopoly of ultimate decision-making and taxation), then monarchies are economically and ethically more advantageous to democracies, and "natural orders" or "anarcho-capitalism" (social systems free of monopoly and taxation) are economically and ethically more advantageous and justified than monarchies. (xix-xx)
+
+**Time Preference & Civilization**
+
+"Time preference" is man's preference for earlier goods over later goods. This is because time is scarce, future time is uncertain, and present needs must be met before expected needs in the future. A high or rising time preference places greater emphasis on the present, whereas a low or falling time preference places less emphasis on the present. Both cases prefer present goods to later goods, but the latter is more likely to be willing to defer present consumption for future consumption. (1)
+
+Lower time preferences initiate a "process of civilization." They facilitate the availability of loanable funds (since these cannot exist without previous savings) such that investments can be made in the present which will yield future returns. These investments produce more durable goods, make people's lives more comfortable, and increase people's life expectancy. Factors which can contribute to a decrease in time preference are maturation from childhood to adulthood and advancement of knowledge. If time preferences were always high, then nobody would forgo current consumption for the sake of future consumption, i.e. nobody would save and there would be no investment. (3-8)
+
+Capital goods are valued only insofar as they are intermediate products used to turn out final consumer goods. The consumer is sovereign and all prices (less institutional interference) in the supply chain are adjusted according to his demand and willingness to pay. The difference in price between a final consumer good and the originary factors required to produce it is the price paid for time, i.e. possessing the good today rather than creating it oneself. (3)
+
+**Investment & Interference**
+
+In the beginning, there was only "land" (natural resources) and "labor" (human bodies). Everything else was the result of somebody appropriating (homesteading) nature and acting upon it (with labor or technical knowledge). A potato in hand today (natural resource), a belief or understanding of how potatoes grow (technical knowledge), and the willingness to forgo consumption of that potato today (savings) are all required in order for someone to plant that potato and yield ten new potatoes for consumption next year. These sorts of appropriations and transformations increase the value of one's present goods, which in turn decreases one’s time-preference rate. Where property rights are violated and goods are stolen, or under conditions where this is more likely to occur, then the supply or value of present goods decreases, which in turn increases time preference. (9-11)
+
+Crime and the risk or likelihood of crime causes one to lose present goods or reallocate those goods, which effectively raises one's time-preference rate -- just as an increase in natural disasters reduces supply of present goods and increases time preference. Likewise, civilization is permanently impaired when government violates property rights or enacts regulation which limits what an owner may or may not do with their property, as victims may not legitimately defend themselves against such violations. Like crime, these interferences on private-property rights by government reduce the supply of present goods and raise time-preference rates, but unlike crime, these interferences are continual and institutionalized, and so further increase risks of future production and decrease expected returns on future production. (12-14)
+
+**Public & Private Government**
+
+Governments are territorial monopolists with an inherent tendency toward growth. Different forms of government lead to differing degrees of decivilization (falling time preferences), but all are a constant threat to civilization (rising time preferences). Typically, governments start small, and usually in the form of personal rule or private ownership of government (monarchy). These private owners are more likely to be already socially recognized as an elite, with some record of past achievement. Democracies, on the other hand, cannot naturally acquire legitimacy in the same way; they gain legitimacy by war or revolution. (15-17)
+
+Kings and queens, as private owners of government, have a lower time preference than democratic leaders precisely because their role as governors includes ownership. If they tax too high, future production falls and thus future income falls. Their personal ownership over government incentivizes them to preserve the present value of their kingdom. In addition, since nobody outside the immediate family can ever expect to become the next king, this private ownership further incentivizes the governors to preserve the long-run value of the kingdom, since it is their own family which stands to benefit. For the ruled, without any realistic access into government, they develop a clearer "class consciousness" as a member of the "governed public," and thus resist government's power to tax further as well as government's ability to wage war, since territorial expansion is viewed as a ruler's private business which they must finance themselves. (19-23)
+
+Democrats, on the other hand, can use government to their advantage but do not own it. They have a limited window to plunder and profit from their position of power, and so have no incentive to preserve the capital value of the nation, as they lose access to any resources left unappropriated when they leave office. Instead of maintaining or enhancing the resources and production power of the nation, democrats will "use up as much of the government resources as quickly as possible, for what he does not consume now, he may never be able to consume." Furthermore, since anybody can conceivably become a member of the ruling class, the governed public has a fuzzier class consciousness, and therefore offers weaker resistance against government power. This results in higher tax rates and greater numbers of people as public servants with higher degrees of time preference. (24-26)
+
+**Debt, Private Property & Redistribution**
+
+Public governments are also more likely to incur debt, since those debts are owned by the public, whereas kings and queens are constrained by the fact that they and their heirs are personally liable for repayment. (27)
+
+More importantly, kings & queens will want to strengthen private property laws since their own kingdoms are their private property; to weaken private property rights effectively weakens their own claim over the territory. Thus, they seek to uphold preexisting private property law. In contrast, public governments create and administer their own laws -- laws which exempt government agents from liability -- which subverts and supercedes the prevailing private law and erodes property rights. (28)
+
+This erosion of private law and prevailing property rights is further exascerbated by suffrage. Since, in democracies, anybody can run for government, "the advocacy and adoption of redistributive policies is predestined to become the very prerequisite for anyone wanting to attain or retain a government caretaker position." Private governments represent a "consumption state" while democracies are transformed in a "welfare state." (29)
+
+Hoppe identifies three forms of redistribution: (1) transfer payments from the haves to the have-nots; (2) "free" or subsidized access to goods and services; and (3) "protection laws" which benefit one group of businessmen or consumers over other competing groups. Regardless of form, redistribution policies have two core effects: they increase uncertainty of the future, which as explained above is a decivilizing force, and they reward non-producers at the expense of more productive members of society. Consequently, the future will be more uncertain, investment in the future will decrease, time preferences for the present will rise, the underperforming will be rewarded, and the most productive members of society will be punished. There is now less incentive to work and earn income, more immediate consumption, more shortsightedness, and all of these negative effects reinforce each other. (30-33)
+
+**Warfare**
+
+Private governments are expected to finance their own wars; public governments can effectively rack up as much debt as they want for it. Privately-owned governments can engage better in treaties, since there is less likelihood a new administration will nullify them; they can also intermarry to secure peace instead of waging war. In contrast, public governments wage Total War driven by ideology (see Introduction above). (36-41)
+
+As for the track record of publicly-owned governments, besides Total War on a global scale, it also has the unique distinction of producing communism, fascism, and national socialism. Public governments have produced an endless rise of taxes, debt, inflation, and public employment. At the same time, marriage has weakened, birth rates and wages have declined or stagnated, and there have been increasing rates of divorce, illegitimacy, single parenthood, and abortion. (42)
+
+In conclusion of the first chapter, Hoppe explains that public opinion is the only means by which to prevent this continual process of decivilization. Government itself (public or private) is not to be praised for civilization; rather, strong private property rights (and individual responsibility) are responsible for civilization, through its tendency to decrease time-preference (and thus increase saving and investment). (43)
+
+
 ## Don't Vote -- It Just Encourages the Bastards
 
 Don’t Vote — It Just Encourages the Bastards is a 2010 book by P. J. O’Rourke. It describes the American politico-economic system and his personal journey from the left-wing to libertarianism.
@@ -210,6 +271,51 @@ One of the slags gets sick and dies, despite lots of garlic. Turns out her death
 The remaining slag is forced to drink Dracula’s blood so he can control her, but the heroes turn that against Dracula and use her hysteria to track him down. Apparently he took a box of his special dirt back to Transylvania.
 
 Once in Transylvania, the heroes evade some gypsies protecting the Count and somehow manage to kill him with a knife to the heart. The slag recovers and they agree they won’t be able to convince others of their story.
+
+
+## Dubliners
+
+Dubliners is a 1914 novella by James Joyce. It is comprised of fifteen short stories (chapters) set in Dublin, Ireland.
+
+It's a hard one to categorize since the stories aren't really connected. Some chapters are more interesting than others. Joyce's first major publication, it's less cohesive than his latter novels which contain clearer storylines and styles; but since it's Joyce, it has its critical defenders.
+
+At least as of last reading, its commensurable with _A Portrait of the Artist as a Young Man_ in entertainment value. Good for good characters and quick reads.
+
+
+## The Fountainhead
+
+The Fountainhead is a 1943 novel by Ayn Rand.
+
+The protagonist is Howard Roark, a young architect beholden to no industry standards. A secondary protagonist, Dominique Francon, is a love interest who wavers between supporting Howard or his former classmate Peter Keating, an architectural rival.
+
+Howard works at some reputable architectural firm but is continually fired for being too creative or refusing to build in dated styles. Newspaperman and socialist Ellsworth M. Toohey smears Howard in his paper for bucking the traditional order and playing by his own rules.
+
+Howard is sued for malpractice after an eccentric codger is dissatisfied with Howard's design work. The trial is a mockery of justice, with characters testifying against him for basically being an individualist who refuses to follow the stuffy rules of the architectural establishment.
+
+His love interest Dominique marries his rival Keating, even though she knows that Howard possesses greatness, in consolation and resignation of the sad fact that the world does not exalt and encourage genius as it should. Keating basically sells her to potential client Gail Wynand in order to secure a commission; Dominique ends up marrying him, and Gail actually likes Howard's work.
+
+Keating reaches out to Howard for help designing a project on Howard's terms -- that he remains anonymous and the plans are constructed exactly as designed. The promise is broken, and Howard illegally dynamites the entires construction for breach of contract.
+
+Howard is arrested, and although Wynand tries to defend Howard in his papers at first, he eventually gives in and denounces Howard as well. On trial again, Howard gives an impassioned speech on integrity and individual character and is found not guilty.
+
+Dominique ends up marrying Howard, and Howard designs a new skyscraper for Wynand, who himself finally realized that Howard possesses all the strengths that he (Wynand) thought he himself had. Howard is vindicated, without compromising his standards, creative vision, or imitating lesser artists than himself.
+
+
+## Heart of Darkness
+
+Heart of Darkness is an 1899 novella by Joseph Conrad. It is a story of conquest and imperialism in Africa, and was loosely adapted by Francis Ford Coppola’s into the Vietnam war film Apocalypse Now.
+
+Charles Marlow, a sailor on the River Thames, tells his shipmates a story about working for an ivory trading company. He tells of his journey upon winding rivers into the heart of Africa, where he meets an accountant who tells him about a very successful tradesman named Kurtz, who runs a key trading post and delivers more ivory than any other tradesman for the company.
+
+After a long trek inland, Marlow learns that the steamboat he's supposed to command has been damaged. The manager on site tells Marlow that Kurtz has fallen ill and that his station might be at risk. Months pass as they begin repairs on a separate boat, and a brick-maker tells Marlow more of the legend of Kurtz -- that he is a "prodigy" and a beacon of progress for the continent.
+
+Once the ship is repaired, it's another two months up river. Finally nearing the station, they awaken one foggy morning to arrows being shot at them from ashore, with one of his crewmen falling to a spear. Marlow uses the steam whistle to scare away the attackers and finally reaches Kurtz's station.
+
+They land at the station and learn from a stray Russian that the native savages worship Kurtz; that Kurtz is a warrior poet. Severed heads are impaled on posts around the station, and the natives carry Kurtz upon a stretcher to the steamboat. Once he's been loaded on, Marlow finally learns the opposite side to Kurtz's legend – that the company wants to remove him from the station; that his methods have hurt the business and its reputation.
+
+In the middle of the night, Marlow catches Kurtz crawling back ashore. They bring him back aboard and leave the station the next morning, firing upon the natives as they part. Kurtz gives Marlow some documents and a photograph, asking him not to show their contents to the manager. As Kurtz dies aboard the steamboat, his final words are a faint whisper, "The horror! The horror!"
+
+Marlow falls ill the next day but recovers. When he's returned to Europe, Marlow is disillusioned with the modern world. He provides a journalist with Kurtz's documents and goes to visit Kurtz's fiancee. She pleads Marlow to tell her more about how Kurtz passed, to share his final words. Marlow lies and tells her that Kurtz's parting word was her name.
 
 
 ## Heretics
@@ -293,6 +399,30 @@ On a proposed statue to Oliver Crowell; on how far virtue and heroes have fallen
 Not included in e-Book, so this section remains unread.
 
 
+## Moby Dick: or, The Whale
+
+Moby Dick; or, The Whale is an 1851 novel by Herman Melville. It's a story about an obsessive ship captain chasing a white sperm whale.
+
+The book was unsuccessful during Melville's lifetime but is since reknown. It was inspired by an actual albino whale named Mocha Dick, as well as the unrelated whaleship Essex, which was sunk by a sperm whale and whose survivors resorted to cannibalism to stay alive.
+
+Some of the most interesting parts, contrary to some popular opinion, are those interludes with actual historical information about whales and whaling. As a bygone era, and one uncommonly referenced today, the culture, traditions, and history of whales and the whaling industry are surprisingly rich, and the animals themselves undeniably impressive.
+
+Yes, there is a captain named Ahab and a long, long whale chase. And sure, maybe it's an allegory for the dangers inherent in any obsessive, uncompromising pursuit. But it's still an exciting journey and a fascinating slice of history.
+
+
+## Modern Manners
+
+Modern Manners: An Etiquette Book for Rude People is a 1994 book by P. J. O'Rourke.
+
+There's something about the folly of politics that brings out the best in O'Rourke -- this, however, is a book on manners. It features his routine wit but just doesn't punch quite like his other work.
+
+When O'Rourke talks politics, there's always kernels of truth among the giggles. But Modern Manners is different. It's snark for snark's sake.
+
+Really, he just rags on "polite" society. Not actual polite people, but the crusty, image-conscious, blue-blooded gentry. But everyone already knows those folk are the walking, talking dead -- predictably self-righteous and boring.
+
+For actual books on manners, see _The Curmudgeon's Guide to Getting Ahead_ by Charles Murray or the GentleManners series by John Bridges.
+
+
 ## The Most Dangerous Book
 
 The Most Dangerous Book is a non-fiction book by Kevin Birmingham about the publication of James Joyce's Ulysses. Unlike other major works on Joyce or his works, Birmingham focuses on the obscenity trials surrounding the publication of Ulysses in the United States of America ("the states").
@@ -354,6 +484,13 @@ Again, somehow, there's still another box he hasn't gone through. The last box, 
 Yambo's mind is adrift in no-place and no-time. Ideas and memories surface. Some even seem real – that is, his. A cascade of characters from film and comic books march across his mind. He is getting closer to the one thing he wants – to see Savilla's face. He knows she was an instrumental figure in him becoming who he was – whomever that is – as she was imprinted forever into his nervous system as a young, impressionable teenage boy. Yes, she is the answer. She is the key that will unlock the mystery of his identity. The cascade of characters continues their ceremonial march across his consciousness until, finally, she is up next. As she's about to appear, all goes black.
 
 
+## Notes from Underground
+
+Notes from Underground is an 1864 novel by Fyodor Dostoevsky. It is an early example of an existentialist novel.
+
+The novel isn't high art but it does hold up, and the depiction of the unnamed protagonist is unfortunately all too relevant today. He's angsty, emo, bitter, whiny, cringey, arrogant, and egocentric. Basically, he's a redditor.
+
+
 ## Parliament of Whores
 
 Parliament of Whores is a 1991 book by P. J. O’Rourke that satirizes the U.S. government.
@@ -382,6 +519,15 @@ Somewhere along the way, Abbe Dalla Piccola, one of the alter-egos he used to in
 There is, however, no great resolve to the many conflicts presented herein. Simoni realizes he is Piccola, and vice versa, and they live happily together as one entity again. But the reader receives no grand conclusion to their story. Simoni is just on a path, though not explicitly stated, to piece together his magnum opus – an amalgamation of his greatest antisemitic forgeries into the infamous Protocols of the Elders of Zion.
 
 And that's sort of it. A story of 19th-century cultural and political undercurrents, told through a mentally unstable forger, as the author’s explanations for how the Protocols of the Elders of Zion might have been written. Altogether a crude and disconnected, sometimes fun, hypothetical in novel form.
+
+
+## Treasure Island
+
+Treasure Island is an 1883 novel by Robert Louis Stevenson. It is an adventure story about searching for pirate's buried treasure.
+
+It's a cute story filled with tropes, but at least seems to have helped create some of those tropes itself. X-marks-the-spot, the one-legged Long John Silver, yadda yadda.
+
+It makes a fine adventure novel for young adults. Similar to _Journey to the Center of the Earth_, it's not particularily thrilling, interesting, or well-written, but it's fun enough.
 
 
 ## Ulysses
