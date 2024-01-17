@@ -37,8 +37,7 @@
   $body$
 </content>
 <footer>
-  <p>(c) Copyright 1999-$year$ VLNT.</p>
-  <p>Last build $build$.</p>
+  <p>---<br/>(c) Copyright 1999-$year$ VLNT; built $build$.</p>
   <a name="bottom"></a>
 </footer>
 </body>
