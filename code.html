@@ -156,16 +156,16 @@
     <p>Managing multiple usernames.</p>
     <blockquote>
     <ol type="1">
-    <li>Setup <code>~/.ssh/config</code> using
-    e.g. <code>Host github.com-user1</code> and
+    <li>Setup <code>~/.ssh/config</code> using e.g.
+    <code>Host github.com-user1</code> and
     <code>Host github.com-user2</code>. (<a
     href="https://www.howtogeek.com/devops/how-to-fix-git-using-the-wrong-ssh-key-account/">source</a>)</li>
     </ol>
     </blockquote>
     <blockquote>
     <ol start="2" type="1">
-    <li>Setup remote origins to use the above dummy hosts,
-    e.g. <code>git remote set-url origin git@github.com-user1:user1/reponame.git</code>.
+    <li>Setup remote origins to use the above dummy hosts, e.g.
+    <code>git remote set-url origin git@github.com-user1:user1/reponame.git</code>.
     (<a
     href="https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository">source</a>)</li>
     </ol>
@@ -180,7 +180,7 @@
     <div class="sourceCode" id="cb7"><pre
     class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> for dir in <span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span> <span class="cf">if</span> <span class="bu">[</span> <span class="ot">-d</span> <span class="va">$dir</span> <span class="ot">-a</span> <span class="ot">!</span> <span class="ot">-h</span> <span class="va">$dir</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span> <span class="bu">cd</span> <span class="at">--</span> <span class="st">&quot;</span><span class="va">$dir</span><span class="st">&quot;</span><span class="kw">;</span> <span class="bu">echo</span> <span class="st">&quot;Generating md5sum for &#39;</span><span class="va">$dir</span><span class="st">&#39;&quot;</span><span class="kw">;</span> <span class="fu">md5sum</span> <span class="pp">*</span>.flac <span class="op">&gt;</span> checksum.md5<span class="kw">;</span> <span class="bu">cd</span> .. <span class="kw">;</span> <span class="cf">fi</span><span class="kw">;</span> <span class="cf">done</span><span class="kw">;</span></span></code></pre></div>
     <h2 id="mises.py">mises.py</h2>
-    <p>Scrape pdfs from Mises Institute’s digital library.</p>
+    <p>Scrape pdfs from Mises Institute's digital library.</p>
     <blockquote>
     <p>Requires beautifulsoup.</p>
     </blockquote>
@@ -262,7 +262,7 @@
     <p>Requires backslashes at end of directories.</p>
     </blockquote>
     <blockquote>
-    <p>Remove –dry-run to execute; ‘–delete’ used to mirror directory
+    <p>Remove --dry-run to execute; '--delete' used to mirror directory
     contents.</p>
     </blockquote>
     <div class="sourceCode" id="cb11"><pre
