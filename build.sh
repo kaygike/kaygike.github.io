@@ -3,7 +3,7 @@
 # Convert pages/*.md to /*.html using custom stylesheet & template
 
 # List of filenames in pages/ (without .md extension)
-declare -a arr=("index" "books" "code" "other" "quotes" "text")
+declare -a arr=("index" "about" "books" "code" "other" "quotes" "text")
 
 for i in "${arr[@]}"
 do
