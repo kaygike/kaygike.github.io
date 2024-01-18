@@ -1,4 +1,6 @@
-# Quotes
+---
+title: Quotes
+---
 
 ## Attributions & Others
 

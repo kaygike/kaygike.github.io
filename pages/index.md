@@ -1,6 +1,9 @@
-The Inquisition never ended.
+---
+title: Home
+---
 
-<!--
+_The Inquisition never ended._
+
 <center>
 ```
       ████████████████      
@@ -19,4 +22,3 @@ The Inquisition never ended.
       ████████████████      
 ```
 </center>
--->

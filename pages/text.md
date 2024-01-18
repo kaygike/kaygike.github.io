@@ -1,4 +1,6 @@
-# Text
+---
+plp: "Text"
+---
 
 ## Excel best practices
 
@@ -77,36 +79,36 @@ Words worth remembering. IPAs via dictionary.com.
 
 **bureaucratic tapeworm**, n., _byoor-uh-krat-ik teyp-wurm_
 
-> Unelected career official; statist parasite.
+: Unelected career official; statist parasite.
 
 **dendroid**, adj., _den-droid_
 
-> Resembling a tree in form and branching structure.
+: Resembling a tree in form and branching structure.
 
 **noxious**, adj., _nok-shuhs_
 
-> Morally harmful or pernicious; corrupting.
+: Morally harmful or pernicious; corrupting.
 
 **panacea**, n., _pan-uh-see-uh_
 
-> Hypothetical remedy for all ills or diseases.
+: Hypothetical remedy for all ills or diseases.
 
 **proprietorial**, adj., _pruh-prahy-tawr-ee-uhl_
 
-> Of or pertaining to ownership.
+: Of or pertaining to ownership.
 
 **pyrrhic**, adj., _pir-ik_
 
-> Of or relating to Pyrrhus, especially relating to victories won by incurring terrible losses.
+: Of or relating to Pyrrhus, especially relating to victories won by incurring terrible losses.
 
 **shibboleth**, n., _shib-uh-lith_
 
-> A favorite word or saying of a sect or political group.
+: A favorite word or saying of a sect or political group.
 
-> A manner of speaking that is distinctive of a particular group.
+: A manner of speaking that is distinctive of a particular group.
 
 **sisyphean**, adj., _sis-uh-fee-uhn_
 
-> Of or relating to Sisyphus.
+: Of or relating to Sisyphus.
 
-> Endless and unavailing, as labor or a task.
+: Endless and unavailing, as labor or a task.

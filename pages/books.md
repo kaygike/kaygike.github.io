@@ -1,4 +1,6 @@
-# Books
+---
+title: Books
+---
 
 ::: Warning
 Spoilers

@@ -1,4 +1,6 @@
-# Code
+---
+title: Code
+---
 
 ## 7z
 
