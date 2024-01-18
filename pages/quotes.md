@@ -12,7 +12,7 @@
 
 > Good breeding consists in concealing how much we think of ourselves and how little we think of the other person.
 >
-> --Samuel Clemens
+> -- Samuel Clemens
 
 ## Chesterton, G.K.
 
@@ -33,7 +33,7 @@
 
 > Every taxation involves the creation of two distinct and unequal classes: tax-payers and tax-consumers
 >
-> Hans-Hermann Hoppe, Democracy, xvii
+> -- Hans-Hermann Hoppe, Democracy, xvii
 
 
 ## Joyce, James
