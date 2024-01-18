@@ -31,6 +31,9 @@
     </ul>
   </header>
 <content>
+  $for(title)$
+    <h1>$title$</h1>
+  $endfor$
   $if(toc)$
     <nav id="$idprefix$TOC" role="doc-toc">$table-of-contents$</nav>
   $endif$

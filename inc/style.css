@@ -87,24 +87,11 @@ content h2, content h3, content h4, content h5, content h6 {
 #TOC li {
     list-style: none;
 }
-#TOC > ul > li > a[id^="toc-"] {
-    color: black;
-    display: block;
-    font-size: 200%;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-decoration: none;
-}
-
-/* Page titles */
-h1 {
-    display: none; 
-}
-#TOC h1 {
-    display: unset;
-}
 
 /* Other */
+h1 {
+    text-transform: capitalize;
+}
 a {
     color: #b22;
 }
@@ -115,8 +102,8 @@ a {
 }
 blockquote {
     border-left: 1px solid #bbb;
-    margin-left: 20px;
-    padding-left: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 blockquote + blockquote {
     margin-top: 30px;
