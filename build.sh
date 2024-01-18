@@ -19,5 +19,6 @@ do
     --metadata title="$i" \
     --metadata year="$(date +%Y)" \
     --metadata build="$(date +%Y-%m-%d)"\
+    --verbose \
     pages/$i.md
 done
