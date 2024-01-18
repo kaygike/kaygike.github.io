@@ -9,7 +9,7 @@ for i in "${arr[@]}"
 do
     echo "Generating $i.html"
     pandoc \
-    --from=markdown \
+    --from=markdown-smart \
     --to=html \
     --output=$i.html \
     --toc=true \
@@ -19,6 +19,5 @@ do
     --metadata title="$i" \
     --metadata year="$(date +%Y)" \
     --metadata build="$(date +%Y-%m-%d)"\
-    --verbose \
     pages/$i.md
 done
