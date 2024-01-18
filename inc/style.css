@@ -71,7 +71,6 @@ content {
     margin-top: 70px;
 }
 content h2, content h3, content h4, content h5, content h6 {
-    margin-top: 100px;
     scroll-margin-top: 70px;
 }
 
@@ -89,7 +88,12 @@ content h2, content h3, content h4, content h5, content h6 {
     list-style: none;
 }
 #TOC > ul > li > a[id^="toc-"] {
+    color: black;
+    display: block;
+    font-size: 200%;
     font-weight: bold;
+    padding-bottom: 20px;
+    text-decoration: none;
 }
 
 /* Page titles */
@@ -109,9 +113,20 @@ a {
     content: "Note:";
     margin-right: 1ch;
 }
+blockquote {
+    border-left: 1px solid #bbb;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+blockquote + blockquote {
+    margin-top: 30px;
+}
 div.sourceCode {
-    border-left: 1px solid #ccc;
-    padding-left: 10px;
+    border: 1px solid #bbb;
+    padding: 10px;
+}
+li {
+    list-style: square;
 }
 
 /* Footer */
