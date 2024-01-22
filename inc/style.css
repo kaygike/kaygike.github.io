@@ -1,4 +1,5 @@
 body {
+    font-family: monospace;
     margin: 0 auto;
     max-width: 80ch;
     padding: 5px;
@@ -91,7 +92,7 @@ div.sourceCode {
     border: 1px solid #bbb;
     padding: 10px;
 }
-li { list-style: square; }
+ul li { list-style: square; }
 
 /* Warning div */
 .Warning { margin: 50px 0; }
@@ -106,4 +107,16 @@ li { list-style: square; }
 footer {
     font-size: 80%;
     margin: 100px 0 40px;
+}
+
+
+/* Page specific */
+body.index h1:first-of-type {
+    display: none; 
+}
+body.books div.Warning ~ * {
+    display: none;
+}
+body.books h2:target, body.books h2:target + div {
+    display: block;
 }
