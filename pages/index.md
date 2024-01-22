@@ -2,8 +2,6 @@
 title: Home
 ---
 
-_The Inquisition never ended._
-
 <center>
 ```
       ████████████████      
