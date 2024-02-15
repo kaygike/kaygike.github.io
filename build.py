@@ -26,6 +26,7 @@ if __name == '__main__':
         site = config.SITE_NAME,
         desc = config.SITE_DESC,
         title = page_title,
+        nav = config.NAV
         toc = toc,
         body = body,
         template = config.TEMPLATE,

@@ -7,7 +7,7 @@ templates_dir: templates/
 templates_css: style.css
 
 # Navigation
-menu:
+nav:
   - title: Home
     slug: index
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAUElEQVQ4y81TOQ4AMAgS//9nujaNRywdyqYSAx6wGEzysAYMYlYcNxEoJGPLo+DoFig4oE+nfHIgKtC3YI0CdnUfNEu3AOWO/jikJ79w/c4LRsAdA34hQFwAAAAASUVORK5CYII="

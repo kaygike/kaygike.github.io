@@ -19,7 +19,7 @@ PAGES_DIR = cfg.get('pages_dir', 'pages/')
 PUBLISH_DIR = cfg.get('publish_dir', 'public/')
 TEMPLATES_DIR = cfg.get('templates_dir', 'templates/')
 
-MENU = cfg.get('menu', '')
+NAV = cfg.get('nav', '')
 
 # Make directories if they don't exist
 for path in [PUBLISH_DIR, TEMPLATES_DIR]:
