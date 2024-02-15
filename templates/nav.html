@@ -1,0 +1,9 @@
+<ul>
+{% for link in nav %}
+    <li>
+        <a href='{{ link.slug }}.html' title='{{ link.title }}'>
+            <img src='{{ link.icon }}' alt='{{ link.title }}' />
+        </a>
+    </li>
+{% endfor %}
+</ul>
