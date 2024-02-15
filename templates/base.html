@@ -9,8 +9,7 @@
   <link rel='stylesheet' type='text/css' href='style.css?{{ now }}' />
 </head>
 <body class='{{ template }}'>
-  <header>{% block header %}{% endblock %}</header>
-  <nav>{% block nav %}{% endblock %}</nav>
+  <header>{% include 'nav.html'}</header>
   <content>{% block content %}{% endblock %}</content>
 </body>
 </html>
