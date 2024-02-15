@@ -11,10 +11,10 @@ do
     pandoc \
     --from=markdown-smart \
     --to=html \
-    --output=$i.html \
+    --output=public/$i.html \
     --toc=true \
     --highlight-style=kate \
-    --css=inc/style.css \
+    --css=../inc/style.css \
     --template=inc/html-template.pandoc \
     --metadata title="$i" \
     --metadata year="$(date +%Y)" \

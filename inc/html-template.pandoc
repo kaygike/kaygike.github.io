@@ -20,14 +20,14 @@
 <body class="$pagetitle$">
   <header>
     <ul>
-      <li><a href="index.html"><img src="img/home.png"/></a></li>
-      <li><a href="#"><img src="img/up.png"/></a></li>
-      <li><a href="#bottom"><img src="img/down.png"/></a></li>
-      <li><a href="books.html"><img src="img/books.png"/></a></li>
-      <li><a href="code.html"><img src="img/code.png"/></a></li>
-      <li><a href="other.html"><img src="img/other.png"/></a></li>
-      <li><a href="quotes.html"><img src="img/quotes.png"/></a></li>
-      <li><a href="text.html"><img src="img/text.png"/></a></li>
+      <li><a href="index.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAUElEQVQ4y81TOQ4AMAgS//9nujaNRywdyqYSAx6wGEzysAYMYlYcNxEoJGPLo+DoFig4oE+nfHIgKtC3YI0CdnUfNEu3AOWO/jikJ79w/c4LRsAdA34hQFwAAAAASUVORK5CYII="/></a></li>
+      <li><a href="#"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAF0lEQVQI12NggID/IIIRxkAGYAEmZBEAYRQDAWN3Wf0AAAAASUVORK5CYII="/></a></li>
+      <li><a href="#bottom"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGElEQVQI12NggID/IIKJAQkwwkSRAVgAAEdVAwFW/w2ZAAAAAElFTkSuQmCC"/></a></li>
+      <li><a href="books.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGUlEQVQI12NgYGD4D8UMjDAGCDBBaUYMGQCIJgQCsZKYkAAAAABJRU5ErkJggg=="/></a></li>
+      <li><a href="code.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAF0lEQVQI12NkYGD4z4AE4BwmZFFGZBkAXE0DAgem7doAAAAASUVORK5CYII="/></a></li>
+      <li><a href="other.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGUlEQVQI12NkYGD4zwAFTFCaEZkDF4ErAwA53QIGnU/NDAAAAABJRU5ErkJggg=="/></a></li>
+      <li><a href="quotes.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGUlEQVQI12NkYGD4zwAFTFCaEUbAZZDBfwBHqAMDl78yDAAAAABJRU5ErkJggg=="/></a></li>
+      <li><a href="text.html"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAFklEQVQI12NkYGD4z4AGwAJMyCIoHABPZwIE9eCI+AAAAABJRU5ErkJggg=="/></a></li>
     </ul>
   </header>
 <content>
