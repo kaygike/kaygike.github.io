@@ -14,7 +14,7 @@ with open('config.yml', encoding='utf-8') as f:
 # Assign variables
 SITE_NAME = cfg.get('site_name', 'site_name')
 SITE_DESC = cfg.get('site_desc', '')
-CSS_PATH = cfg.get('css_path', 'inc/style.css')
+CSS_FILE = cfg.get('css_file', 'templates/style.css')
 PUBLISH_DIR = cfg.get('publish_dir', 'public/')
 TEMPLATES_DIR = cfg.get('templates_dir', 'templates/')
 

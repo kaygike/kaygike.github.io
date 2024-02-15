@@ -1,9 +1,9 @@
 # General
 site_name: VLNT
 site_desc: 'VLNT, adj.: Of a thing: valuable, of worth. Of a person: having great merit; worthy.'
-css_path: inc/style.css
 publish_dir: public/
 templates_dir: templates/
+templates_css: style.css
 
 # Navigation
 menu:
