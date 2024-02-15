@@ -1,7 +1,8 @@
 # General
 site_name: VLNT
 css_path: inc/style.css
-template_dir: templates/
+publish_dir: public/
+templates_dir: templates/
 
 # Navigation
 menu:
