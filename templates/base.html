@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en' class='no-js'>
+<head>
+  <title>{{ site }}: {{ title }}</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name='description' content='{{ desc }}'>
+  {% block head %}{% endblock %}
+  <link rel='stylesheet' type='text/css' href='style.css?{{ now }}' />
+</head>
+<body class='{{ template }}'>
+  <header>{% block header %}{% endblock %}</header>
+  <nav>{% block nav %}{% endblock %}</nav>
+  <content>{% block content %}{% endblock %}</content>
+</body>
+</html>
