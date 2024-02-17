@@ -6,7 +6,7 @@ import datetime
 import os
 import shutil
 # External
-from jinja2 import Environment, fileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 # Internal
 from modules import config
 
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # won't need to access parent directory, e.g. ('../inc/style.css')
     templates_css = os.path.join(config.TEMPLATES_DIR, config.CSS_FILE)
     publish_css = os.path.join(config.PUBLISH_DIR, config.CSS_FILE)
-    shutil.copyfile(teampltes_css, publish_css)
+    shutil.copyfile(templates_css, publish_css)
 
     # Initialize template system and write HTML to file
     env = Environment(loader=FileSystemLoader(config.TEMPLATES_DIR))
