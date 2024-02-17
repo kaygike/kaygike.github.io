@@ -1,6 +1,7 @@
 # General
 site_name: VLNT
 site_desc: 'VLNT, adj.: Of a thing: valuable, of worth. Of a person: having great merit; worthy.'
+include_dir: inc/
 pages_dir: pages/
 publish_dir: public/
 templates_dir: templates/
@@ -26,9 +27,9 @@ nav:
   - title: Text
     slug: text
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAFklEQVQI12NkYGD4z4AGwAJMyCIoHABPZwIE9eCI+AAAAABJRU5ErkJggg=="
-  - title: [Up]
+  - title: '[Up]'
     slug: #
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAF0lEQVQI12NggID/IIIRxkAGYAEmZBEAYRQDAWN3Wf0AAAAASUVORK5CYII="
-  - title: [Down]
+  - title: '[Down]'
     slug: #bottom
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAYAAABLLYUHAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGElEQVQI12NggID/IIKJAQkwwkSRAVgAAEdVAwFW/w2ZAAAAAElFTkSuQmCC"
