@@ -15,9 +15,9 @@ if __name__ == '__main__':
     # Copy CSS to publish directory.
     # Makes it easier to deploy on Netlify, Render, etc. since host 
     # won't need to access parent directory, e.g. ('../inc/style.css')
-    templates_css = os.path.join(config.TEMPLATES_DIR, config.CSS_FILE)
+    includes_css = os.path.join(config.INCLUDES_DIR, config.CSS_FILE)
     publish_css = os.path.join(config.PUBLISH_DIR, config.CSS_FILE)
-    shutil.copyfile(templates_css, publish_css)
+    shutil.copyfile(includes_css, publish_css)
 
     # Initialize template system and write HTML to file
     env = Environment(loader=FileSystemLoader(config.TEMPLATES_DIR))
