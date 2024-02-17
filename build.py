@@ -11,10 +11,10 @@ from jinja2 import Environment, fileSystemLoader
 from modules import config
 
 
-if __name == '__main__':
+if __name__ == '__main__':
     # Copy CSS to publish directory.
-    # Makes it easier to deploy on Netlify, Render, etc. since host won't need
-    # to access parent directory, e.g. ('../inc/style.css')
+    # Makes it easier to deploy on Netlify, Render, etc. since host 
+    # won't need to access parent directory, e.g. ('../inc/style.css')
     templates_css = os.path.join(config.TEMPLATES_DIR, config.CSS_FILE)
     publish_css = os.path.join(config.PUBLISH_DIR, config.CSS_FILE)
     shutil.copyfile(teampltes_css, publish_css)
@@ -26,7 +26,7 @@ if __name == '__main__':
         site = config.SITE_NAME,
         desc = config.SITE_DESC,
         title = page_title,
-        nav = config.NAV
+        nav = config.NAV,
         toc = toc,
         body = body,
         template = config.TEMPLATE,
