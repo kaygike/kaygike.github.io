@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' lang='en' class='no-js'>
 <head>
-  <title>{{ site }}: {{ title }}</title>
+  <title>{{ site }}: {{ page_title }}</title>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta name='description' content='{{ desc }}'>
@@ -9,7 +9,7 @@
   <link rel='stylesheet' type='text/css' href='style.css?{{ now }}' />
 </head>
 <body class='{{ template }}'>
-  <header>{% include 'nav.html'}</header>
+  <header>{% include 'nav.html' %}</header>
   <content>{% block content %}{% endblock %}</content>
 </body>
 </html>
