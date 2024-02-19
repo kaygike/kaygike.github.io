@@ -5,6 +5,7 @@ include_dir: inc/
 pages_dir: pages/
 publish_dir: public/
 templates_dir: templates/
+template: base.html
 templates_css: style.css
 
 # Navigation
