@@ -1,13 +1,11 @@
 ---
-title: Books2
+title: Books
 ---
 
-::: Warning
-Spoilers
-:::
+::: Warning: Spoilers :::
 
 ## 2001: A Space Odyssey
-<div>
+
 2001: A Space Odyssey is a 1968 novel by Arthur C. Clarke developed concurrently with the Stanley Kubrick film of the same name.
 
 **Part I. Primeval Night.** 
@@ -29,10 +27,10 @@ HAL 9000 continually detects a malfunction in a critical communication device, e
 **Part 5. The Moons of Saturn.**
 
 Dave continues towards Saturn as a lone ambassador from Earth. He spots a larger version of TMA-1 on its surface, which was placed there 3,000,000 years ago by intelligent, extraterrestrial, extra-spatial life. As Dave nears Saturn’s monolith, the monolith unfolds spacetime absorbs Dave’s ship into its abyss. Dave senses he’s moving at incredible speed and believes the monolith to be some sort of "star gate" that facilitates faster-than-light travel. His pod lands in what appears to be an ordinary hotel room, prepared for someone of his species to eventually discover. He sleeps, relives his past, and is transformed into an extra-spatial omnipotent being ("Star-Child") with the power to influence matter and help guide mankind through a new stage of evolution.
-</div>
+
 
 ## Atlas Shrugged
-<div>
+
 Atlas Shrugged is a 1957 novel by Ayn Rand. It espouses her philosophy of Objectivism.
 
 **Characters**
@@ -50,10 +48,10 @@ The government steps up its economic interference by nationalizing patents and f
 Dagny crashes a private plan while chasing an employee whom she hoped to convince not to leave the company. Among the wreckage, she finally learns why d’Anconia was sabotaging his business; why the new motor designer did nothing with his invention; to where some of the world's leading tycoons had disappeared -- a man named John Galt had convinced them all to leave the world behind and to live quietly in his hidden Gulch instead, as a protest against the government's increasing intervention and expropriation of their work and the economy.
 
 When Dagny peeks her head back out into the world, the government is even more incompetent and totalitarian than before. John Galt delivers a three-hour speech over the radio urging them to take pride in their own work; to forge forward and invent and create; to be in charge of their own destinies; to refuse to allow the government to siphon, steal, and tax their creative output and livelihoods to death. Galt is arrested but quickly rescued by his minions, and New York City plunges into chaos as the electricity goes out. Such is the planned, centralized economy of government intervention, and among its ruins, John Galt and his followers are prepared to rebuild anew.
-</div>
+
 
 ## The Brothers Karamazov
-<div>
+
 The Brothers Karamazov is an 1880 philosophical novel by Fyodor Dostoevsky. It tells the story of four brothers and the murder of their father.
 
 **Characters**
@@ -115,10 +113,10 @@ A mockery of trial finds Dmitri guilty. Ivan remains tormented by guilt, and has
 **Epilogue**
 
 Dmitri accepts his fate. There's talk of an escape plan and he reconciles with one of his former lovers who falsely accused him during the trial. But no escape is to be witnessed. Instead, Alyosha leads a funeral service for a young schoolboy recently departed. He implores the children to love deep and wide, to forgive all, and to cherish every moment and memory they have. The boys are enraptured by his speech, and end the novel cheering "Hurrah for Karamazov." In Alyosha, the Karamazov family name has been redeemed.
-</div>
+
 
 ## Bushido: The Soul of Japan
-<div>
+
 Bushido: The Soul of Japan is a 1900 book by Inazo Nitobé. It is an explanation and musing for western audiences of the character, ethics, and history of the Japanese samurai.
 
 According to author Inazo Nitobé, _Bu-shi-do_ translates to _Military-Knight-Ways_ -- the character, teachings, ethics, and chivalry of Japanese sword-warriors. The system is simple: total allegiance to master, death for dishonor, sword as last resort, and honor over all. To die for an unworthy cause is cowardice; to slay an unworthy foe is murder.
@@ -132,10 +130,10 @@ _Seppuku_ or _kappuku_ (_hara-kiri_) was not mere suicide — it was ceremonial.
 > No one circle in the Inferno will boast of greater density of Japanese population than the seventh, to which Dante consigns all victims of self-destruction!
 
 Bushido "set a moral standard for [the populace] and guided them by their example." Although it lives no longer as a system, it is immortal as a virtue. For "wherever man struggles to raise himself above himself, wherever his spirit masters his flesh by his own exertions, there we see the immortal discipline of Zeno at work."
-</div>
+
 
 ## Candide
-<div>
+
 Candide is a 1759 novella by François-Marie Arouet aka Voltaire.
 
 The story is not only too short for a good synopsis, but also not good enough for one. Technically it's satire, but of the boring variety with little humor or wit. Basically, it ridicules Leibniz's theodicy of the “"est of all possible worlds" -- his attempt to solve the "problem of evil" -- by showing an optimist continually being shat upon.
@@ -143,19 +141,19 @@ The story is not only too short for a good synopsis, but also not good enough fo
 Unlike Joyce's _A Portrait of the Artist as a Young Man_ which, in its critique of Christianity, at least attempts to faithfully represent the Catholic tradition and experience, Candide attacks a straw man.
 
 That it's considered Voltaire's magnum opus doesn't bode well for the value of his other works (admittedly unread by this author). Its crowning achievement seems only to be that he shat upon some Christian theology before radical secularism trickled into Europe after the French Revolution.
-</div>
+
 
 ## The Carlyle Anthology
-<div>
+
 The Carlyle Anthology is an 1876 collection of Thomas Carlyle excerpts compiled by Edward Barrett.
 
 It's a very accessible introduction to Carlyle's thought, as it covers his biographical profiles, his great man theory of history, his ideas on the power and virtue of the written word, and some of his political arguments against populism and universal suffrage.
 
 Carlyle's writing style can be a difficult for modern readers due to his prose and punctuation style, so these shorter excerpts may be easier to digest than his full works. The anthology is broken into six sections: (1) Life, and the Conduct of Life; (2) Portraits and Characters; (3) Literature, and the Literary Life; (4) Religion; (5) Politics; and (6) Historical and Miscellaneous.
-</div>
+
 
 ## Crime and Punishment
-<div>
+
 Crime and Punishment is an 1866 novel by Fyodor Dostoyevsky.
 
 Raskolnikov, a poor man in St. Petersburg, schemes to rob an old pawnshop owner for her money. After scouting out her apartment, he returns with an axe, pretending that he wants to pawn an item. Raskolnikov strikes her down, and then her half-sister when she walks into the room. In panic, he flees with a small handfull of items worth far less than the lives he took.
@@ -173,10 +171,10 @@ After a funeral banquet for a man that Raskolnikov saw killed earlier in the str
 Soon thereafter, Petrovich surprises Raskolnikov for a quick chat, and tells him straight-out that he knows Raskolnikov is the murderer, that Raskolnikov will be arrested soon, and that it would be better for all if he would simply confess. Svidrigailov tells Dunya about her brother's confession to Sonya, and with no chance of her requitted love, commits suicide the next morning in public.
 
 Raskolnikov says goodbye to his mother and sister, receives a crucifix from Sonya, and heads to the police station. There he learns of Svidrigailov's suicide and makes a full confession. He is sentenced to eight years of labor in Siberia, during which his mother passes. Sonya follows him to Siberia, and despite feeling unworthy of her love, he accepts his sins and seeks redemption in Sonya's loving presence.
-</div>
+
 
 ## Democracy: The God that Failed
-<div>
+
 Democracy: The God That Failed is a 2001 book by Hans-Hermann Hoppe. It is a critique of democracy and a defense of private property rights.
 
 Below is a summary of the introduction and first chapter, which outline his thesis and key concepts.
@@ -234,10 +232,10 @@ Private governments are expected to finance their own wars; public governments c
 As for the track record of publicly-owned governments, besides Total War on a global scale, it also has the unique distinction of producing communism, fascism, and national socialism. Public governments have produced an endless rise of taxes, debt, inflation, and public employment. At the same time, marriage has weakened, birth rates and wages have declined or stagnated, and there have been increasing rates of divorce, illegitimacy, single parenthood, and abortion. (42)
 
 In conclusion of the first chapter, Hoppe explains that public opinion is the only means by which to prevent this continual process of decivilization. Government itself (public or private) is not to be praised for civilization; rather, strong private property rights (and individual responsibility) are responsible for civilization, through its tendency to decrease time-preference (and thus increase saving and investment). (43)
-</div>
+
 
 ## Don't Vote -- It Just Encourages the Bastards
-<div>
+
 Don't Vote — It Just Encourages the Bastards is a 2010 book by P. J. O'Rourke. It describes the American politico-economic system and his personal journey from the left-wing to libertarianism.
 Synopsis
 
@@ -256,10 +254,10 @@ In practice, our markets aren’t free: certain businesses are not allowed to fa
 > It is the duty of every politically informed and engaged person to do everything he or she can to prevent politics.
 
 Part history, part theory, and part autobiography, Don't Vote offers a 10,000-foot view on O'Rourke's understanding of political theory, and a 10-foot view on how it impacted him personally.
-</div>
+
 
 ## Dracula
-<div>
+
 Dracula is an 1897 horror novel by Bram Stoker. It introduced the Count Dracula character and is told through diary entries, letters, and newspaper clippings.
 
 The opening chapters detail a lawyer who visits Transylvania and slowly discovers that he’s essentially become a prisoner to Count Dracula, who sleeps in dirt and slithers down walls. Good stuff.
@@ -273,19 +271,19 @@ One of the slags gets sick and dies, despite lots of garlic. Turns out her death
 The remaining slag is forced to drink Dracula’s blood so he can control her, but the heroes turn that against Dracula and use her hysteria to track him down. Apparently he took a box of his special dirt back to Transylvania.
 
 Once in Transylvania, the heroes evade some gypsies protecting the Count and somehow manage to kill him with a knife to the heart. The slag recovers and they agree they won’t be able to convince others of their story.
-</div>
+
 
 ## Dubliners
-<div>
+
 Dubliners is a 1914 novella by James Joyce. It is comprised of fifteen short stories (chapters) set in Dublin, Ireland.
 
 It's a hard one to categorize since the stories aren't really connected. Some chapters are more interesting than others. Joyce's first major publication, it's less cohesive than his latter novels which contain clearer storylines and styles; but since it's Joyce, it has its critical defenders.
 
 At least as of last reading, its commensurable with _A Portrait of the Artist as a Young Man_ in entertainment value. Good for good characters and quick reads.
-</div>
+
 
 ## The Fountainhead
-<div>
+
 The Fountainhead is a 1943 novel by Ayn Rand.
 
 The protagonist is Howard Roark, a young architect beholden to no industry standards. A secondary protagonist, Dominique Francon, is a love interest who wavers between supporting Howard or his former classmate Peter Keating, an architectural rival.
@@ -301,10 +299,10 @@ Keating reaches out to Howard for help designing a project on Howard's terms -- 
 Howard is arrested, and although Wynand tries to defend Howard in his papers at first, he eventually gives in and denounces Howard as well. On trial again, Howard gives an impassioned speech on integrity and individual character and is found not guilty.
 
 Dominique ends up marrying Howard, and Howard designs a new skyscraper for Wynand, who himself finally realized that Howard possesses all the strengths that he (Wynand) thought he himself had. Howard is vindicated, without compromising his standards, creative vision, or imitating lesser artists than himself.
-</div>
+
 
 ## Heart of Darkness
-<div>
+
 Heart of Darkness is an 1899 novella by Joseph Conrad. It is a story of conquest and imperialism in Africa, and was loosely adapted by Francis Ford Coppola’s into the Vietnam war film Apocalypse Now.
 
 Charles Marlow, a sailor on the River Thames, tells his shipmates a story about working for an ivory trading company. He tells of his journey upon winding rivers into the heart of Africa, where he meets an accountant who tells him about a very successful tradesman named Kurtz, who runs a key trading post and delivers more ivory than any other tradesman for the company.
@@ -318,10 +316,10 @@ They land at the station and learn from a stray Russian that the native savages 
 In the middle of the night, Marlow catches Kurtz crawling back ashore. They bring him back aboard and leave the station the next morning, firing upon the natives as they part. Kurtz gives Marlow some documents and a photograph, asking him not to show their contents to the manager. As Kurtz dies aboard the steamboat, his final words are a faint whisper, "The horror! The horror!"
 
 Marlow falls ill the next day but recovers. When he's returned to Europe, Marlow is disillusioned with the modern world. He provides a journalist with Kurtz's documents and goes to visit Kurtz's fiancee. She pleads Marlow to tell her more about how Kurtz passed, to share his final words. Marlow lies and tells her that Kurtz's parting word was her name.
-</div>
+
 
 ## Heretics
-<div>
+
 Heretics is a 1905 collection of essays by G. K. Chesterton. It contains arguments against popular ideas by fashionable and/or contemporary authors of his day.
 
 Chesterton begins with a defense of terminology, with orthodox traditionally being an adjective for correct. He suggests that even the most extreme partisans like violent anarchists must consider themselves orthodox to be morally justified in their actions.
@@ -349,10 +347,10 @@ In his chapter on Moore, Chesterton digs into the "formal doctrine of the sin of
 > And he intrudes the capital "I" even where it need not be intruded —  even where it weakens the force of a plain statement. Where another man would say, "It is a fine day," Mr. Moore says, "Seen through my temperament, the day appeared fine." Where another man would say,"Milton has obviously a fine style," Mr. Moore would say, "As a stylist Milton had always impressed me."
 
 There's other interesting stuff too. The end.
-</div>
+
 
 ## Journey to the Center of the Earth
-<div>
+
 Journey to the Center of the Earth is an 1864 novel by Jules Verne. It follows three explorers on their journey into an inactive volcano in Iceland, where they discover creatures of the prehistoric world still live.
 
 An orphaned young lad joins his eccentric mineralogist uncle to retrace the steps of an earlier explorer who allegedly found a route into the center of the earth. They prep materials, fly to Iceland, get a guide and climb down into a volcano. They trek deeper and deeper underground.
@@ -362,10 +360,10 @@ For three chapters they're thirsty for water, and then they find some water. Eve
 They explore the shore, see some tall prehistoric man trotting about, some skeletons, the usual. After finding their route caved in, they use some dynamite and accidentally unleash the water around them. The floods shoot them up and up and eventually out of Etna (a different volcano).
 
 All are alive, and are well-esteemed in society.
-</div>
+
 
 ## Latter-Day Pamphlets
-<div>
+
 Latter-Day Pamphlets is an 1850 collection of essays ("pamphlets") by Thomas Carlyle. The eight essays are commentaries on political, religious, and social issues.
 
 **No. 1. The Present Time**
@@ -399,10 +397,10 @@ On a proposed statue to Oliver Crowell; on how far virtue and heroes have fallen
 **No. 8. Jesuitism**
 
 Not included in e-Book, so this section remains unread.
-</div>
+
 
 ## Moby Dick: or, The Whale
-<div>
+
 Moby Dick; or, The Whale is an 1851 novel by Herman Melville. It's a story about an obsessive ship captain chasing a white sperm whale.
 
 The book was unsuccessful during Melville's lifetime but is since reknown. It was inspired by an actual albino whale named Mocha Dick, as well as the unrelated whaleship Essex, which was sunk by a sperm whale and whose survivors resorted to cannibalism to stay alive.
@@ -410,10 +408,10 @@ The book was unsuccessful during Melville's lifetime but is since reknown. It wa
 Some of the most interesting parts, contrary to some popular opinion, are those interludes with actual historical information about whales and whaling. As a bygone era, and one uncommonly referenced today, the culture, traditions, and history of whales and the whaling industry are surprisingly rich, and the animals themselves undeniably impressive.
 
 Yes, there is a captain named Ahab and a long, long whale chase. And sure, maybe it's an allegory for the dangers inherent in any obsessive, uncompromising pursuit. But it's still an exciting journey and a fascinating slice of history.
-</div>
+
 
 ## Modern Manners
-<div>
+
 Modern Manners: An Etiquette Book for Rude People is a 1994 book by P. J. O'Rourke.
 
 There's something about the folly of politics that brings out the best in O'Rourke -- this, however, is a book on manners. It features his routine wit but just doesn't punch quite like his other work.
@@ -423,10 +421,10 @@ When O'Rourke talks politics, there's always kernels of truth among the giggles.
 Really, he just rags on "polite" society. Not actual polite people, but the crusty, image-conscious, blue-blooded gentry. But everyone already knows those folk are the walking, talking dead -- predictably self-righteous and boring.
 
 For actual books on manners, see _The Curmudgeon's Guide to Getting Ahead_ by Charles Murray or the GentleManners series by John Bridges.
-</div>
+
 
 ## The Most Dangerous Book
-<div>
+
 The Most Dangerous Book is a non-fiction book by Kevin Birmingham about the publication of James Joyce's Ulysses. Unlike other major works on Joyce or his works, Birmingham focuses on the obscenity trials surrounding the publication of Ulysses in the United States of America ("the states").
 
 There were at least three cases concerning Ulysses in the states. The first over the Comstock Act of 1873, the second over the Tariff Act of 1930, and the third an appeal over the second.
@@ -469,10 +467,10 @@ Noble Hand wrote the majority opinion. Like Woolsey, he praised Ulysses and Joyc
 * "In numerous places there are found originality, beauty, and distinction... while in not a few spots it is coarse, blasphemous, and obscene."
 
 The Hands handed the verdict thus. Random House was free to publish James Joyce's Ulysses, and precedent is now such that obscenity adjudications should consider, among other things, the entire work rather than excerpts.
-</div>
+
 
 ## The Mysterious Flame of Queen Loana
-<div>
+
 The Mysterious Flame of Queen Loana is a 2004 novel by Umberto Eco. It's about a man with memory loss trying to piece his life history together through family artifacts.
 
 Giambattista "Yambo" Bodoni awakens in a hospital with no memory of self. Lyrics, book passages and quotations, cultural expressions are all that remain readily available to him. He learns he is married, has grandchildren, and is an antiquarian book dealer. At his wife's encouragement, he travels alone to his family’s old country estate to see if the house, and the abandoned possessions within, can help conjure up any real sense of his identity.
@@ -484,17 +482,17 @@ Despite spending over a week at the estate, there's somehow always another box h
 Again, somehow, there's still another box he hasn't gone through. The last box, and -- surprise! -- it contains an original First Folio of Shakespeare's works, which can gross over $6,000,000 at auction. Then everything goes black and Yambo is pure mind. His best guess is that he lies in a coma, having suffered another stroke at the shock of discovering the book, but the good news is that his memory starts flooding back to him.
 
 Yambo's mind is adrift in no-place and no-time. Ideas and memories surface. Some even seem real -- that is, his. A cascade of characters from film and comic books march across his mind. He is getting closer to the one thing he wants -- to see Savilla's face. He knows she was an instrumental figure in him becoming who he was -- whomever that is -- as she was imprinted forever into his nervous system as a young, impressionable teenage boy. Yes, she is the answer. She is the key that will unlock the mystery of his identity. The cascade of characters continues their ceremonial march across his consciousness until, finally, she is up next. As she's about to appear, all goes black.
-</div>
+
 
 ## Notes from Underground
-<div>
+
 Notes from Underground is an 1864 novel by Fyodor Dostoevsky. It is an early example of an existentialist novel.
 
 The novel isn't high art but it does hold up, and the depiction of the unnamed protagonist is unfortunately all too relevant today. He's angsty, emo, bitter, whiny, cringey, arrogant, and egocentric. Basically, he's a redditor.
-</div>
+
 
 ## Parliament of Whores
-<div>
+
 Parliament of Whores is a 1991 book by P. J. O’Rourke that satirizes the U.S. government.
 
 P.J. breaks down the daily on the U.S. government. There's the three branches, where all are incompetent. There's the extended bureaucracy, where all are incompetent. And there's government spending, where all is wasted.
@@ -504,10 +502,10 @@ With the structure & financing of the federal government established, P.J. peeks
 Then he mocks public protests, the economics of radical ecologists, and the U.S. government’s most entitled entitlement program, Social Security.
 
 It's classic P.J. -- incisive, irreverent, and now irrelevant. Most of the stories and statistics have aged with the tide of time, but still worth a chuckle. And for better or worse, P.J.'s description of incompetent and wasteful government spending is a quaint, bygone memory of better days -- better days where incompetent and wasteful government spending was less incompetent and wasteful than it is today.
-</div>
+
 
 ## The Prague Cemetary
-<div>
+
 The Prague Cemetary is a 2010 novel by Umberto Eco.
 
 Simone Simoni, lawyer-plagiarist, goes on exciting and antisemitic escapades across 19th-century Europe.
@@ -521,19 +519,19 @@ Somewhere along the way, Abbe Dalla Piccola, one of the alter-egos he used to in
 There is, however, no great resolve to the many conflicts presented herein. Simoni realizes he is Piccola, and vice versa, and they live happily together as one entity again. But the reader receives no grand conclusion to their story. Simoni is just on a path, though not explicitly stated, to piece together his magnum opus -- an amalgamation of his greatest antisemitic forgeries into the infamous Protocols of the Elders of Zion.
 
 And that's sort of it. A story of 19th-century cultural and political undercurrents, told through a mentally unstable forger, as the author’s explanations for how the Protocols of the Elders of Zion might have been written. Altogether a crude and disconnected, sometimes fun, hypothetical in novel form.
-</div>
+
 
 ## Treasure Island
-<div>
+
 Treasure Island is an 1883 novel by Robert Louis Stevenson. It is an adventure story about searching for pirate's buried treasure.
 
 It's a cute story filled with tropes, but at least seems to have helped create some of those tropes itself. X-marks-the-spot, the one-legged Long John Silver, yadda yadda.
 
 It makes a fine adventure novel for young adults. Similar to _Journey to the Center of the Earth_, it's not particularily thrilling, interesting, or well-written, but it's fun enough.
-</div>
+
 
 ## Ulysses
-<div>
+
 Ulysses is a 1922 novel by Irish author James Joyce. The 730 page story takes place on June 16, 1904, in Dublin, Ireland. The chapters are unnamed, but have since been identified by scholars as mapping to Homer's Odyssey, such that the characters and events in the novel correspond to different parts of Odysseus's journey from Troy back to Ithaca.
 
 The three main characters are Leopold Bloom, his wife Molly, and his friend Stephen Dedalus. The story is of their ordinary day in Dublin -- conversations, eaves-droppings, disagreements, estrangements, drunken escapades -- from the morning's first shave to crawling back into bed.
@@ -615,10 +613,10 @@ Leopold takes Stephen to his (Leopold's) home and offers him a bed for the night
 **18. Penelope**
 
 Molly drifts back to sleep, thinking about her husband Leopold, her lover Blazes, and her childhood. She falls asleep remembering Leopold's proposal to her, to which she responded yes, yes, yes.
-</div>
+
 
 ## Unlimited Memory
-<div>
+
 Unlimited Memory is a 2014 book by Kevin Horsley. It describes mental tricks to improve memory and retention.
 
 Kevin Horsley is a "Grandmaster of Memory" who ranks in the top 1,000 worldwide across multiple memory "disciplines.” He holds the second fastest time in the "Everest" of memory tests, which measures how fast participants can recite random selections of 5-digit chunks within the first 10,000 digits of pi.
@@ -656,10 +654,10 @@ The core idea is that you use a room, a house, a particular drive, some physical
 The linking thoughts method is one in which you build a story out of your associations. Items to memorize are therefore linked together through some narrative. The example used by Horsley in the book involves U.S. presidents -- while you're washing a tin, it grows an Adam's apple. A chef and her son walk by and rip it out to make some medicine to give to Marilyn Monroe...
 
 Horsley provides some tips for remember names, such as by inventing some association with a person you already know by that name, or linking them to a particular physical characteristic of the person. But the most important part of this tip is simply to pay attention -- actually listen and attempt to retain the person’s name when they introduce themselves.
-</div>
+
 
 ## War and Peace
-<div>
+
 War and Peace is an 1869 novel by Leo Tolstoy. It is a 15-year saga (1805-1820) chronicling the lives of five aristocratic families through Napoleon's failed invasion of the Russian Empire in 1812.
 
 A lesser individual might've called it Soldiers and Soirees.
@@ -671,4 +669,4 @@ It's a historical novel with detailed musings on the inner motivations and fears
 The story features hundreds of characters but the most primary is Pierre, who (arguably) most closely resembles Tolstoy among the entire cast. In the story, Pierre is a moderately-willed effeminate intellectual whose story progresses from admiring Napoleon and revolution to despairing in love, to meaning in freemasonry, to disillusionment in man’s constant material pursuits, to nihilism, to desperation, to blind courage, to transcending his fear of death, to finding meaning in the smallest of moments, and to his ultimate fulfillment in marriage and fatherhood. Both Pierre and Tolstoy were born in aristocracy; both tried to define themselves without it; both were pacifists; and both found meaning in the minuscule.
 
 It is an ambitious study of the mind, the human spirit, and the material. A study of the ego, the will, and the world, at odds and in harmony.
-</div>
+
