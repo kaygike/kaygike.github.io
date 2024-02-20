@@ -1,7 +1,7 @@
 <ul>
 {% for link in nav %}
-    <li>
-        <a href='{{ link.slug }}.html' title='{{ link.title }}'>
+    <li class='{{ link.title }}'>
+        <a href='{{ link.slug }}{% if not link.anchor %}.html{% endif %}' title='{{ link.title }}'>
             <img src='{{ link.icon }}' alt='{{ link.title }}' />
         </a>
     </li>
