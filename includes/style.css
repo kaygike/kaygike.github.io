@@ -5,8 +5,6 @@ body {
     padding: 5px;
 }
 
-
-/* Header */
 header {
     background: #fff;
     border-bottom: 1px solid #777;
@@ -16,50 +14,29 @@ header {
     top: 0;
     width: 80ch;
     z-index: 1;
-}
-header img {
-    height: 16px;
-    image-rendering: pixelated;
-    width: 16px;
-}
-header ul { padding-left: 0; }
-header li { display: inline-block; }
 
-/* Nav - Float arrows to right side */
-header li:nth-of-type(2) {
-    float: right;
-    padding-right: 10px
-}
-header li:nth-of-type(3) {
-    float: right;
-    padding-left: 10px
-}
+    img {
+        height: 16px;
+        image-rendering: pixelated;
+        width: 16px;
+    }
 
-/* Nav - Draw boxes around page links */
-header a {
-    border: 1px solid #111;
-    padding: 5px 5px 0;
-}
-header li:nth-of-type(1) a,
-header li:nth-of-type(2) a,
-header li:nth-of-type(3) a {
-    border: none;
-}
+    ul { padding-left: 0; }
+    
+    li { display: inline-block; }
 
-/* Nav - Emphasize current page */
-body.books header a[href="books.html"] img,
-body.code header a[href="code.html"] img,
-body.other header a[href="other.html"] img,
-body.quotes header a[href="quotes.html"] img,
-body.text header a[href="text.html"] img {
-    filter: invert(1);
-}
-body.books header a[href="books.html"],
-body.code header a[href="code.html"],
-body.other header a[href="other.html"],
-body.quotes header a[href="quotes.html"],
-body.text header a[href="text.html"] {
-    background: #000;
+    li.Up, li.Down {
+        float: right;
+        padding-right: 10px;
+    }
+    .Home a, .Up a, .Down a {
+        border: none;
+    }
+
+    a {
+        border: 1px solid #111;
+        padding: 5px 5px 0;    
+    }
 }
 
 
