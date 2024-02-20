@@ -35,10 +35,12 @@ if __name__ == '__main__':
                 # Read *.md frontmatter and content
                 data = f.read()
                 fm = frontmatter.loads(data)
-                mdown = markdown.markdown(data, extensions=['meta'])
-                
+                md = markdown.Markdown(extensions=['meta', 'toc', 'codehilite', 'fenced_code'])
+                html = md.convert(data)
+                # mdown = markdown.markdown(data, extensions=['meta', 'toc'])
+               
+                # pprint.pprint(mdown)
                 page_title = fm.get('title', inode)
-                pprint.pprint(page_title)
 
                 template = env.get_template(config.TEMPLATE)
                 content = template.render(
@@ -46,8 +48,8 @@ if __name__ == '__main__':
                     desc = config.SITE_DESC,
                     title = page_title,
                     nav = config.NAV,
-                    #toc = toc,
-                    body = mdown,
+                    toc = md.toc,
+                    body = html,
                     template = config.TEMPLATE,
                     now = datetime.datetime.now()
                 )
