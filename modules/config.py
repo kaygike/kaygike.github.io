@@ -19,7 +19,7 @@ INCLUDES_DIR = cfg.get('includes_dir', 'includes/')
 PAGES_DIR = cfg.get('pages_dir', 'pages/')
 PUBLISH_DIR = cfg.get('publish_dir', 'public/')
 TEMPLATES_DIR = cfg.get('templates_dir', 'templates/')
-TEMPLATE = cfg.get('template', 'base.html')
+TEMPLATE = cfg.get('template', 'page.html')
 
 NAV = cfg.get('nav', '')
 
