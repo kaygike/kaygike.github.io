@@ -7,8 +7,8 @@ title: Code
 Create archive w/ no compression and encrypted filenames.
 
 ```bash
-$ 7z a -p -bt -mx=0 -mhe=on archive.7z file1 file2 file3</code>
-````
+$ 7z a -p -bt -mx=0 -mhe=on archive.7z file1 file2 file3
+```
 
 ## bdfr
 
