@@ -55,7 +55,7 @@ content {
     }
 
     h2 {
-        border-bottom: 1px solid #000;
+        /* border-bottom: 1px solid #000; */
         margin-top: 50px;
     }
 
@@ -71,6 +71,8 @@ content {
         margin-bottoM: 50px;
 
         ul {
+            column-count: 2;
+            list-style-position: outside;
             padding-left: 0;
         }
 
@@ -79,8 +81,13 @@ content {
         }
 
         li {
-            list-style: none;
+            list-style: square;
+            margin-left: 1.5ch;
         }
+
+        /* li:before {
+            content: "▪  ";
+        } */
     }
 
     blockquote {
