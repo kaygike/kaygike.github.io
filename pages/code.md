@@ -183,6 +183,20 @@ The above, but recursively through subdirectories.
 $ for d in */ ; do cd "$d"; pwd; shnsplit -f *.cue -t %n_%t -o flac *.flac; if [ -f "00_pregap.flac" ]; then trash 00_pregap.flac; fi; cuetag.sh *.cue [0-9]*.flac; cd ..; done
 ```
 
+## sshfs
+
+Mount remote directory to local filesystem via SSH.
+
+> Requires ```sshfs``` and possibly local user to be in ```fuse``` group.
+
+```bash
+# Mount
+$ sshfs REMOTE@SERVER:/PATH/TO/MOUNT /home/USER/WHERE_TO_MOUNT
+
+# Unmount
+$ fusermount3 -u /home/USER/WHERE_TO_MOUNT
+```
+
 ## wget
 
 Download numerical increments.
