@@ -2,7 +2,9 @@
 title: Books
 ---
 
+***
 ::: Warning: Spoilers :::
+***
 
 ## 2001: A Space Odyssey
 
