@@ -25,17 +25,18 @@ header {
     
     li { display: inline-block; }
 
+    li a {
+        border: 1px solid #111;
+        padding: 5px 5px 0;    
+    }
+
     li.Up, li.Down {
         float: right;
         padding-right: 10px;
     }
-    .Home a, .Up a, .Down a {
-        border: none;
-    }
 
-    a {
-        border: 1px solid #111;
-        padding: 5px 5px 0;    
+    li.Home a, li.Up a, li.Down a {
+        border: none;
     }
 }
 
@@ -44,41 +45,85 @@ header {
 content {
     display: block;
     margin-top: 70px;
-}
-content h2, content h3, content h4, content h5, content h6 { scroll-margin-top: 70px; }
 
-/* Table of contents */
-#TOC { margin-bottom: 50px; }
-#TOC ul { padding-left: 0; }
+    a { 
+        color: #b22;
+    }
+
+    h1 {
+        text-transform: capitalize;
+    }
+
+    h2 {
+        border-bottom: 1px solid #000;
+        margin-top: 50px;
+    }
+
+    h2, h3, h4, h5, h6 { 
+        scroll-margin-top: 70px;
+    }
+
+    ul li {
+        list-style: square;
+    }
+
+    .toc {
+        margin-bottoM: 50px;
+
+        ul {
+            padding-left: 0;
+        }
+
+        ul ul li {
+            padding-left: 4ch;
+        }
+
+        li {
+            list-style: none;
+        }
+    }
+
+    blockquote {
+        border-left: 1px solid #555;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    blockquote + blockquote {
+        margin-top: 30px;
+    }
+
+    pre.codehilite {
+        border: 1px solid #bbb;
+        padding: 10px;
+    }
+    code {
+        white-space: pre-line;
+    }
+    
+}
+
+/* Table of contents
+.toc { margin-bottom: 50px; }
+.toc ul { padding-left: 0; }
 #TOC ul ul li { padding-left: 4ch; }
-#TOC li { list-style: none; }
+#TOC li { list-style: none; } */
 
 /* Other */
-h1 { text-transform: capitalize; }
-h2 { border-bottom: 1px solid #000; }
-a { color: #b22; }
-blockquote {
-    border-left: 1px solid #bbb;
-    margin-left: 10px;
-    padding-left: 10px;
-}
-blockquote + blockquote {
-    margin-top: 30px;
-}
-div.sourceCode {
-    border: 1px solid #bbb;
-    padding: 10px;
-}
-ul li { list-style: square; }
+/* h1 { text-transform: capitalize; }
+h2 { border-bottom: 1px solid #000; } */
+
+
+
 
 /* Warning div */
-.Warning { margin: 50px 0; }
+/* .Warning { margin: 50px 0; }
 .Warning p {
     background: #fc2;
     display: inline;
     padding: 10px;
 }
-.Warning p:before { content: "Note: "; }
+.Warning p:before { content: "Note: "; } */
 
 /* Footer */
 footer {
@@ -88,12 +133,8 @@ footer {
 
 
 /* Page specific */
-body.index h1:first-of-type {
-    display: none; 
-}
-body.books div.Warning ~ * {
-    display: none;
-}
-body.books h2:target, body.books h2:target + div {
-    display: block;
+body.index {
+    h1:first-of-type {
+        display: none; 
+    }
 }
